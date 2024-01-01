@@ -1,12 +1,12 @@
-[00:55:14] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.25
-[00:55:14] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[03:00:06] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.25
+[03:00:06] [ForkJoinPool-1-worker-16/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 12
-[00:55:14] [ForkJoinPool-1-worker-8/WARN]: The mod "necronomicon" contains invalid entries in its mod json:
+[03:00:06] [ForkJoinPool-1-worker-10/WARN]: The mod "necronomicon" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 10 column 14
-[00:55:14] [ForkJoinPool-1-worker-8/WARN]: Mod mr_true_ending uses the version 1.0.1b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:55:14] [ForkJoinPool-1-worker-6/WARN]: Mod umu_little_maid uses the version 3.11a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '11a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:55:14] [ForkJoinPool-1-worker-5/WARN]: Mod ultris_mr uses the version 5.6.9c which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:55:15] [main/INFO]: Loading 266 mods:
+[03:00:06] [ForkJoinPool-1-worker-11/WARN]: Mod ultris_mr uses the version 5.6.9c which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[03:00:06] [ForkJoinPool-1-worker-17/WARN]: Mod mr_true_ending uses the version 1.0.1b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[03:00:06] [ForkJoinPool-1-worker-19/WARN]: Mod umu_little_maid uses the version 3.11a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '11a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[03:00:06] [main/INFO]: Loading 265 mods:
 	- adventurez 1.4.19
 	- amplified_nether 1.2.3
 	- aquamirae 6
@@ -214,7 +214,6 @@
 	- magic_vibe_decorations 1.7.0
 	- majruszlibrary 7.0.3
 	- majruszsdifficulty 1.9.5
-	- mcda 5.0.1
 	- memoryleakfix 1.1.2
 	- mes 1.3-1.19.4-fabric
 	- minecells 1.5.7
@@ -307,359 +306,371 @@
 	   \-- org_quiltmc_parsers_json 0.2.1
 	- yungsapi 1.20-Fabric-4.0.2
 	   \-- org_javassist_javassist 3.29.2-GA
-[00:55:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/syuba/minecraft/server/1.20.1%20fabric/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[00:55:15] [main/INFO]: Compatibility level set to JAVA_17
-[00:55:15] [main/WARN]: Reference map 'candlelight-fabric-refmap.json' for candlelight.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:55:16] [main/WARN]: Reference map 'cinderscapes-worldgen-refmap.json' for mixins.cinderscapes-worldgen.json could not be read. If this is a development environment you can ignore this message
-[00:55:16] [main/WARN]: Reference map 'dummmmmmy-fabric-refmap.json' for dummmmmmy.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:55:16] [main/WARN]: Reference map 'gazebo-refmap.json' for gazebo.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:55:16] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 5 override(s) found
-[00:55:16] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:55:16] [main/WARN]: Reference map 'BuildingWands-mc1.20.1-fabric-refmap.json' for wands.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:55:16] [main/WARN]: Error loading class: net/minecraft/class_759 (java.lang.ClassNotFoundException: net/minecraft/class_759)
-[00:55:16] [main/WARN]: @Mixin target net.minecraft.class_759 was not found archers.mixins.json:client.item.HeldItemRendererMixin from mod archers
-[00:55:16] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
-[00:55:16] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found mixins.artifacts.fabric.json:client.PlayerRendererMixin from mod artifacts
-[00:55:16] [main/WARN]: Error loading class: io/github/apace100/apoli/power/factory/condition/ConditionFactory (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/factory/condition/ConditionFactory)
-[00:55:16] [main/WARN]: @Mixin target io.github.apace100.apoli.power.factory.condition.ConditionFactory was not found mixins.artifacts.fabric.json:compat.origins.ConditionFactoryAccessor from mod artifacts
-[00:55:16] [main/WARN]: Error loading class: net/minecraft/class_756 (java.lang.ClassNotFoundException: net/minecraft/class_756)
-[00:55:16] [main/WARN]: @Mixin target net.minecraft.class_756 was not found bygonenether.mixins.json:RenderModdedShieldMixin from mod bygonenether
-[00:55:16] [main/WARN]: Error loading class: net/minecraft/class_293 (java.lang.ClassNotFoundException: net/minecraft/class_293)
-[00:55:16] [main/WARN]: @Mixin target net.minecraft.class_293 was not found creativecore.fabric.mixins.json:VertexFormatMixin from mod creativecore
-[00:55:16] [main/WARN]: Error loading class: net/minecraft/class_746 (java.lang.ClassNotFoundException: net/minecraft/class_746)
-[00:55:16] [main/WARN]: @Mixin target net.minecraft.class_746 was not found enchantmentsplus.mixins.json:ClientPlayerEntityMixin from mod enchantmentsplus
-[00:55:16] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
-[00:55:16] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found inmis.mixins.json:client.PlayerEntityFeatureMixin from mod inmis
-[00:55:16] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[00:55:16] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking.sleeping.brewing_stand' (added by mods [extraalchemy]) disables it and children
-[00:55:16] [main/WARN]: Force-disabling mixin 'world.combined_heightmap_update.HeightmapAccessor' as rule 'mixin.world.combined_heightmap_update' (added by mods [imm_ptl_core]) disables it and children
-[00:55:17] [main/WARN]: Force-disabling mixin 'world.combined_heightmap_update.WorldChunkMixin' as rule 'mixin.world.combined_heightmap_update' (added by mods [imm_ptl_core]) disables it and children
-[00:55:17] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [imm_ptl_core]) disables it and children
-[00:55:17] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
-[00:55:17] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[00:55:17] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[00:55:17] [main/WARN]: Error loading class: net/minecraft/class_572$class_573 (java.lang.ClassNotFoundException: net/minecraft/class_572$class_573)
-[00:55:17] [main/WARN]: @Mixin target net.minecraft.class_572$class_573 was not found mixins.mm.json:net.minecraft.class_572$class_573 from mod mm
-[00:55:17] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[00:55:18] [main/WARN]: @Final field field_6248:Lnet/minecraft/class_2371; in wooledboots.mixins.json:LivingEntityEdits from mod wooledboots should be final
-[00:55:27] [main/INFO]: [bclib] Added Config betternether.main to auto sync (file hash)
-[00:55:27] [main/INFO]: [bclib] Added Config betternether.generator to auto sync (file hash)
-[00:55:27] [main/INFO]: [bclib] Added Config betternether.blocks to auto sync (file hash)
-[00:55:27] [main/INFO]: [bclib] Added Config betternether.items to auto sync (file hash)
-[00:55:27] [main/INFO]: [bclib] Added Config betternether.biomes to auto sync (file hash)
-[00:55:27] [main/INFO]: [bclib] Added Config betternether.mobs to auto sync (file hash)
-[00:55:27] [main/INFO]: [bclib] Added Config betternether.recipes to auto sync (file hash)
-[00:55:27] [main/WARN]: [bclib] Recipe betternether:bone_block_bone_button only takes in a single item and should be shapeless
-[00:55:28] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[00:55:28] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[00:55:28] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[00:55:28] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[00:55:28] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[00:55:28] [main/ERROR]: No data fixer registered for artifacts:mimic
-[00:55:28] [main/INFO]: Registered azurelib config for auto-sync function
-[00:55:28] [main/INFO]: Constructing common components for barteringstation:main
-[00:55:28] [main/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
-[00:55:28] [main/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
-[00:55:28] [main/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
-[00:55:28] [main/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
-[00:55:28] [main/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
-[00:55:28] [main/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
-[00:55:28] [main/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
-[00:55:28] [main/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
-[00:55:28] [main/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
-[00:55:29] [main/INFO]: Reflections took 74 ms to scan 1 urls, producing 1 keys and 2 values
-[00:55:29] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[00:55:29] [main/INFO]: [betternether] =^..^=    BetterNether for 1.20    =^..^=
-[00:55:29] [main/INFO]: Biolith is initializing...
-[00:55:29] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
-[00:55:29] [main/ERROR]: No data fixer registered for dead_body
-[00:55:29] [main/ERROR]: No data fixer registered for bygonenether:netherite_bell
-[00:55:30] [main/INFO]: Registering C2S receiver with id candlelight:typewriter_sync
-[00:55:30] [main/INFO]: Registering C2S receiver with id candlelight:sign_note
-[00:55:30] [main/INFO]: [STDOUT]: All 35 have been set properly
-[00:55:30] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
-[00:55:30] [main/INFO]: Loading Collective version 7.22.
-[00:55:30] [main/INFO]: Initialized entity types.
-[00:55:30] [Cicada thread 0/INFO]: [do_a_barrel_roll] Available on Modrinth!
-[00:55:30] [Cicada thread 0/INFO]: [do_a_barrel_roll] Also Curseforge, but yknow...
-[00:55:30] [main/ERROR]: No data fixer registered for deeperdarker:boat
-[00:55:30] [main/ERROR]: No data fixer registered for deeperdarker:chest_boat
-[00:55:30] [main/ERROR]: No data fixer registered for deeperdarker:sculk_centipede
-[00:55:30] [main/ERROR]: No data fixer registered for deeperdarker:sculk_leech
-[00:55:30] [main/ERROR]: No data fixer registered for deeperdarker:sculk_snapper
-[00:55:30] [main/ERROR]: No data fixer registered for deeperdarker:shattered
-[00:55:30] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
-[00:55:30] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
-[00:55:30] [main/INFO]: Deserializing DDConfig from '.\config\deeperdarker.json5'
-[00:55:30] [main/INFO]: Constructing common components for diagonalblocks:main
-[00:55:31] [main/INFO]: Constructing common components for diagonalfences:main
-[00:55:31] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 22ms
-[00:55:31] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 20ms
-[00:55:31] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 49ms
-[00:55:31] [main/ERROR]: No data fixer registered for doapi:chair
-[00:55:31] [main/WARN]: Lithium detected. MmmMmmMmmMmm scarecrow mode has been disabled as lithium doesnt have a way to add goals to new entities
-[00:55:31] [main/INFO]: Constructing common components for easyanvils:main
-[00:55:31] [main/INFO]: Constructing common components for easymagic:main
-[00:55:31] [main/INFO]: [evs] Enchanted Vertical Slabs initialized!
-[00:55:31] [main/INFO]: Constructing common components for enchantinginfuser:main
-[00:55:31] [main/INFO]: enchantmentsplus is now loaded
-[00:55:31] [main/ERROR]: No data fixer registered for badlands_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for cave_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for crimson_forest_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for dark_oak_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for desert_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for end_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for end_islands_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for flower_fields_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for ice_spikes_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for mushroom_fields_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for nether_wastes_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for coral_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for savanna_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for snowy_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for soulsand_valley_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for swamp_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for warped_forest_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for windswept_hills_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for pet_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for hammerhead_pet_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for axolotl_pet_enderman
-[00:55:31] [main/ERROR]: No data fixer registered for scarab
-[00:55:31] [main/ERROR]: No data fixer registered for spirit
-[00:55:31] [main/ERROR]: No data fixer registered for ender_bullet
-[00:55:31] [main/ERROR]: No data fixer registered for corrupted_pearl
-[00:55:31] [main/ERROR]: No data fixer registered for soul_pearl
-[00:55:31] [main/ERROR]: No data fixer registered for ancient_pearl
-[00:55:31] [main/ERROR]: No data fixer registered for bubble_pearl
-[00:55:31] [main/ERROR]: No data fixer registered for summoner_pearl
-[00:55:31] [main/ERROR]: No data fixer registered for icy_pearl
-[00:55:31] [main/ERROR]: No data fixer registered for crimson_pearl
-[00:55:31] [main/ERROR]: No data fixer registered for warped_pearl
-[00:55:31] [main/INFO]: ExpandAbility here, who dis?
-[00:55:31] [main/INFO]: Registered 14 status effects
-[00:55:31] [main/INFO]: Registered dummy effects
-[00:55:31] [main/INFO]: Registered 37 potions
-[00:55:32] [main/INFO]: Initialized Frostiful!
-[00:55:32] [main/INFO]: Is initializing.
-[00:55:32] [main/INFO]: Has successfully been initialized.
-[00:55:32] [main/ERROR]: No data fixer registered for handcrafted
-[00:55:32] [main/INFO]: Initializing HealingbedMod
-[00:55:32] [main/ERROR]: No data fixer registered for provoker
-[00:55:32] [main/ERROR]: No data fixer registered for invoker
-[00:55:32] [main/ERROR]: No data fixer registered for necromancer
-[00:55:32] [main/ERROR]: No data fixer registered for basher
-[00:55:32] [main/ERROR]: No data fixer registered for sorcerer
-[00:55:32] [main/ERROR]: No data fixer registered for archivist
-[00:55:32] [main/ERROR]: No data fixer registered for inquisitor
-[00:55:32] [main/ERROR]: No data fixer registered for marauder
-[00:55:32] [main/ERROR]: No data fixer registered for alchemist
-[00:55:32] [main/ERROR]: No data fixer registered for firecaller
-[00:55:32] [main/ERROR]: No data fixer registered for surrendered
-[00:55:32] [main/ERROR]: No data fixer registered for invoker_fangs
-[00:55:32] [main/ERROR]: No data fixer registered for flying_magma
-[00:55:32] [main/INFO]: Constructing common components for illagerinvasion:main
-[00:55:32] [main/INFO]: Loading Immersive Portals config
-[00:55:32] [main/INFO]: IP Config Applied
-[00:55:32] [main/INFO]: Immersive Portals Mod Initializing
-[00:55:32] [main/INFO]: Dimensional Threading is not present
-[00:55:32] [main/INFO]: Pehkui is not present
-[00:55:32] [main/INFO]: Gravity API is not present
-[00:55:33] [main/INFO]: Processing 3 KiwiModule annotations
-[00:55:33] [main/INFO]: Module [kiwi:contributors] initialized
-[00:55:33] [main/INFO]: Module [snowrealmagic:core] initialized
-[00:55:33] [main/INFO]:     block: 7
-[00:55:33] [main/INFO]:     block_entity_type: 2
-[00:55:33] [main/INFO]:     entity_type: 1
-[00:55:33] [main/INFO]:     loot_pool_entry_type: 1
-[00:55:33] [main/INFO]: Module [kiwi:data] initialized
-[00:55:33] [main/INFO]:     recipe_serializer: 3
-[00:55:33] [main/INFO]: Initializing MagicVibeDecorationsMod
-[00:55:34] [main/ERROR]: No data fixer registered for cerberus
-[00:55:34] [main/ERROR]: No data fixer registered for creeperling
-[00:55:34] [main/ERROR]: No data fixer registered for cursed_armor
-[00:55:34] [main/ERROR]: No data fixer registered for tank
-[00:55:34] [main/INFO]: Registering Blocks for mcda
-[00:55:34] [main/INFO]: Definitely not up to no good
-[00:55:34] [main/ERROR]: No data fixer registered for creeper_minion
-[00:55:34] [main/ERROR]: No data fixer registered for mutant_creeper
-[00:55:34] [main/ERROR]: No data fixer registered for mutant_enderman
-[00:55:34] [main/ERROR]: No data fixer registered for mutant_skeleton
-[00:55:34] [main/ERROR]: No data fixer registered for mutant_snow_golem
-[00:55:34] [main/ERROR]: No data fixer registered for mutant_zombie
-[00:55:34] [main/ERROR]: No data fixer registered for spider_pig
-[00:55:34] [main/ERROR]: No data fixer registered for body_part
-[00:55:34] [main/ERROR]: No data fixer registered for creeper_minion_egg
-[00:55:34] [main/ERROR]: No data fixer registered for endersoul_clone
-[00:55:34] [main/ERROR]: No data fixer registered for endersoul_fragment
-[00:55:34] [main/ERROR]: No data fixer registered for throwable_block
-[00:55:34] [main/INFO]: Constructing common components for mutantmonsters:main
-[00:55:34] [main/INFO]: Loading common config for mutantmonsters
-[00:55:35] [main/INFO]: Necronomicon Initialized
-[00:55:35] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
-[00:55:35] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
-[00:55:35] [main/INFO]: Blodhgarm: Did you know it took four switcheroos to implement the Matrices in the correct folder
-[00:55:35] [main/INFO]: Constructing common components for puzzleslib:main
-[00:55:35] [main/INFO]: Registering ItemGroups: rlovelyr
-[00:55:35] [main/INFO]: Registering Items: rlovelyr
-[00:55:35] [main/INFO]: [Fabric Seasons] Trying to read config file...
-[00:55:35] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
-[00:55:35] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
-[00:55:35] [main/ERROR]: No data fixer registered for battlestandard
-[00:55:35] [main/ERROR]: No data fixer registered for battlestandarddark
-[00:55:35] [main/INFO]: [STDOUT]: C:\syuba\minecraft\server\1.20.1 fabric\config
-[00:55:35] [main/INFO]: Hello Fabric world!
-[00:55:35] [main/INFO]: Config initialized!
-[00:55:35] [main/INFO]: Successfully initialized Geckolib!
-[00:55:36] [main/INFO]: Successfully registered SoulsWeapons content!
-[00:55:36] [main/INFO]: Successfully registered recipes!
-[00:55:36] [main/INFO]: Successfully registered built-in 2D model resourcepack!
-[00:55:36] [main/INFO]: Initializing done, time taken: 265ms
-[00:55:36] [main/INFO]: Hello Fabric world!
-[00:55:36] [main/INFO]: Creating environment manager EnvironmentManager{controller=com.github.thedeathlycow.thermoo.api.temperature.EmptyEnvironmentController}
-[00:55:36] [main/INFO]: Thermoo initialized
-[00:55:36] [main/INFO]: Constructing common components for tinyskeletons:main
-[00:55:36] [main/ERROR]: No data fixer registered for baby_skeleton
-[00:55:36] [main/ERROR]: No data fixer registered for baby_wither_skeleton
-[00:55:36] [main/ERROR]: No data fixer registered for baby_stray
-[00:55:36] [main/INFO]: Config loaded
-[00:55:36] [main/INFO]: Tom's Storage Setup starting
-[00:55:36] [main/INFO]: Start initializing mod!
-[00:55:36] [main/INFO]: Registries are initialized!
-[00:55:36] [main/INFO]: Items are initialized!
-[00:55:36] [main/INFO]: Entities are initialized!
-[00:55:37] [main/INFO]: Inventories are initialized!
-[00:55:37] [main/INFO]: Sounds are initialized!
-[00:55:37] [main/INFO]: Tags are initialized!
-[00:55:37] [main/INFO]: Succeeded initializing mod!
-[00:55:37] [main/INFO]: Setup Complete
-[00:55:37] [main/INFO]: Constructing common components for visualworkbench:main
-[00:55:37] [main/INFO]: Loading up Void Totem (Fabric)
-[00:55:37] [main/INFO]: Wabi-Sabi Structures initialized
-[00:55:37] [main/INFO]: [STDOUT]: Config updated!
-[00:55:37] [main/INFO]: [STDOUT]: Config loaded!
-[00:55:37] [main/INFO]: Registering C2S receiver with id wands:key_packet
-[00:55:37] [main/INFO]: Registering C2S receiver with id wands:palette_packet
-[00:55:37] [main/INFO]: Registering C2S receiver with id wands:wand_packet
-[00:55:37] [main/INFO]: Registering C2S receiver with id wands:pos_packet
-[00:55:37] [main/INFO]: Registering C2S receiver with id wands:global_settings_packet
-[00:55:37] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
-[00:55:37] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
-[00:55:37] [main/INFO]: Its Morbin' time
-[00:55:37] [main/INFO]: Initialized Frostiful server!
-[00:55:37] [main/INFO]: Initialized block sets in 16ms
-[00:55:37] [main/ERROR]: No data fixer registered for target_dummy
-[00:55:37] [main/INFO]: Loaded config dummmmmmy-common.json
-[00:55:37] [main/INFO]: Initialized color sets in 38ms
-[00:55:37] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:55:37] [Worker-Main-1/INFO]: ImmPtl mod info fetched
-[00:55:37] [main/INFO]: [DataFixerAPI] Applying Patch{betternether:5.3.5:21020677}
-[00:55:37] [main/INFO]: [DataFixerAPI] Applying Patch{betternether:8.2.2:33587202}
-[00:55:37] [main/INFO]: [DataFixerAPI] Applying Patch{betternether:9.0.1:37748737}
-[00:55:37] [main/INFO]: [DataFixerAPI] Applying Patch{bclib:3.0.11:12582923}
-[00:55:37] [main/INFO]: [bclib] Running Pre Patchers on .\world\.
-[00:55:37] [main/WARN]: [bclib] Applying Fixes on Level
-[00:55:37] [main/INFO]: [bclib] Patcher Stage... Reading Data%
-[00:55:37] [main/INFO]: [bclib] Patcher Stage... Fixing Players%
-[00:55:37] [main/INFO]: [DataFixerAPI] Inspecting .\world\.\playerdata\a54f7ba3-96b4-432e-adca-08f05ee97ffc.dat
-[00:55:37] [main/INFO]: [bclib] Patcher Stage... Applying Patches to level.dat%
-[00:55:37] [main/INFO]: [DataFixerAPI] Inspecting level.dat in .\world\.
-[00:55:37] [main/INFO]: [bclib] Patcher Stage... Patching Custom World-Data%
-[00:55:37] [main/INFO]: [bclib] Patcher Stage... Repairing all Regions%
-[00:55:37] [main/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.-1.-1.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.-1.0.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting .\world\.\entities\r.0.-1.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.1.-1.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-5/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.1.0.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-4/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.0.0.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-6/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.1.-1.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-7/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.1.0.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-6/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.-1.0.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-5/INFO]: [DataFixerAPI] Inspecting .\world\.\entities\r.-1.0.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.-1.-1.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-7/INFO]: [DataFixerAPI] Inspecting .\world\.\entities\r.0.0.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.0.0.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.0.-1.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.0.-1.mca
-[00:55:37] [ForkJoinPool.commonPool-worker-5/INFO]: [DataFixerAPI] Inspecting .\world\.\entities\r.-1.-1.mca
-[00:55:38] [main/INFO]: [bclib] Patcher Stage... Saving Patch State%
-[00:55:38] [main/INFO]: [DataFixerAPI] Updating Patch-Level for 'betternether' from 0.0.0 to 9.0.1
-[00:55:38] [main/INFO]: [DataFixerAPI] Updating Patch-Level for 'bclib' from 0.0.0 to 3.0.11
-[00:55:38] [main/INFO]: [bclib] Did not manage biome betterend:empty_aurora_cave
-[00:55:38] [main/INFO]: [bclib] Did not manage biome betterend:empty_end_cave
-[00:55:38] [main/INFO]: [bclib] Did not manage biome betterend:empty_smaragdant_cave
-[00:55:38] [main/INFO]: [bclib] Did not manage biome betterend:jade_cave
-[00:55:38] [main/INFO]: [bclib] Did not manage biome betterend:lush_aurora_cave
-[00:55:38] [main/INFO]: [bclib] Did not manage biome betterend:lush_smaragdant_cave
-[00:55:38] [main/INFO]: [bclib] Did not manage biome betterend:megalake_grove
-[00:55:38] [main/INFO]: [bclib] Did not manage biome betterend:neon_oasis
-[00:55:38] [main/INFO]: [bclib] Did not manage biome betterend:painted_mountains
-[00:55:39] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (65dca67d)
-[00:55:39] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:55:39] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
-[00:55:39] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[00:55:39] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[00:55:39] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
-[00:55:39] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (70434f4c)
-[00:55:39] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:55:39] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
-[00:55:39] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (48c02432)
-[00:55:39] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:55:39] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
-[00:55:39] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[00:55:39] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[00:55:39] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
-[00:55:39] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (6698d195)
-[00:55:39] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:55:39] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
-[00:55:39] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (502cbaab)
-[00:55:39] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:55:39] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
-[00:55:39] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[00:55:39] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[00:55:39] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
-[00:55:39] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (7f0818f)
-[00:55:39] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:55:39] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
-[00:55:39] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (4ba10e99)
-[00:55:39] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:55:39] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
-[00:55:39] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[00:55:39] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[00:55:39] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
-[00:55:39] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (13df50bd)
-[00:55:39] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:55:39] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
-[00:55:39] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[00:55:39] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[00:55:39] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[00:55:39] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[00:55:39] [main/WARN]: [bclib] No valid BCLBiome Registry available!
-[00:55:39] [main/WARN]: [bclib] No valid Biome Registry available!
-[00:55:39] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[00:55:39] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (48305d39)
-[00:55:39] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:55:39] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
-[00:55:39] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[00:55:39] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[00:55:39] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
-[00:55:39] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (e8fd214)
-[00:55:39] [main/INFO]: [bclib] Unable to build Biome List yet
-[00:55:39] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
-[00:55:40] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[00:55:40] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[00:55:40] [Worker-Main-7/ERROR]: Couldn't load tag umu_little_maid:maid_healer_site as it is missing following references: umu_little_maid:amethyst_block (from fabric)
-[00:55:40] [Worker-Main-7/ERROR]: Couldn't load tag umu_little_maid:maid_hunter_site as it is missing following references: umu_little_maid:target (from fabric)
-[00:55:40] [Worker-Main-7/ERROR]: Couldn't load tag umu_little_maid:maid_poseidon_site as it is missing following references: umu_little_maid:conduit (from fabric)
-[00:55:40] [Worker-Main-7/ERROR]: Couldn't load tag umu_little_maid:maid_archer_site as it is missing following references: umu_little_maid:target (from fabric)
-[00:55:40] [Worker-Main-3/ERROR]: Couldn't load tag dummmmmmy:is_explosion as it is missing following references: attributeslib:detonation (from fabric)
-[00:55:40] [Worker-Main-7/ERROR]: Couldn't load tag umu_little_maid:maid_farmer_site as it is missing following references: umu_little_maid:scarecrow (from fabric)
-[00:55:40] [Worker-Main-3/ERROR]: Couldn't load tag dummmmmmy:is_cold as it is missing following references: attributeslib:cold_damage (from fabric)
-[00:55:40] [Worker-Main-3/ERROR]: Couldn't load tag dummmmmmy:is_fire as it is missing following references: attributeslib:fire_damage (from fabric)
-[00:55:40] [Worker-Main-5/ERROR]: Couldn't load tag frozenlib:dont_emit_use_game_events as it is missing following references: deeperdarker:transmitter (from fabric)
-[00:55:45] [main/INFO]: [bclib] Disabling Recipe: bclib:test_star
-[00:55:45] [main/WARN]: The ring recipe extraalchemy:ring_recipes/extraalchemy_shrinking_strong has no non-instant effects associated with extraalchemy:shrinking_strong, this functionality is meant for long lasting effects.
-[00:55:45] [main/WARN]: The ring recipe extraalchemy:ring_recipes/extraalchemy_growing has no non-instant effects associated with extraalchemy:growing, this functionality is meant for long lasting effects.
-[00:55:45] [main/ERROR]: Parsing error loading recipe wooledboots:wooled_diamond_to_netherite
+[03:00:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/minecraft/fabric%20%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[03:00:07] [main/INFO]: Compatibility level set to JAVA_17
+[03:00:07] [main/WARN]: Reference map 'candlelight-fabric-refmap.json' for candlelight.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:00:07] [main/WARN]: Reference map 'cinderscapes-worldgen-refmap.json' for mixins.cinderscapes-worldgen.json could not be read. If this is a development environment you can ignore this message
+[03:00:07] [main/WARN]: Reference map 'dummmmmmy-fabric-refmap.json' for dummmmmmy.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:00:07] [main/WARN]: Reference map 'gazebo-refmap.json' for gazebo.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:00:07] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 5 override(s) found
+[03:00:07] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:00:07] [main/WARN]: Reference map 'BuildingWands-mc1.20.1-fabric-refmap.json' for wands.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:00:07] [main/WARN]: Error loading class: net/minecraft/class_759 (java.lang.ClassNotFoundException: net/minecraft/class_759)
+[03:00:07] [main/WARN]: @Mixin target net.minecraft.class_759 was not found archers.mixins.json:client.item.HeldItemRendererMixin from mod archers
+[03:00:07] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
+[03:00:07] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found mixins.artifacts.fabric.json:client.PlayerRendererMixin from mod artifacts
+[03:00:07] [main/WARN]: Error loading class: io/github/apace100/apoli/power/factory/condition/ConditionFactory (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/factory/condition/ConditionFactory)
+[03:00:07] [main/WARN]: @Mixin target io.github.apace100.apoli.power.factory.condition.ConditionFactory was not found mixins.artifacts.fabric.json:compat.origins.ConditionFactoryAccessor from mod artifacts
+[03:00:07] [main/WARN]: Error loading class: net/minecraft/class_756 (java.lang.ClassNotFoundException: net/minecraft/class_756)
+[03:00:07] [main/WARN]: @Mixin target net.minecraft.class_756 was not found bygonenether.mixins.json:RenderModdedShieldMixin from mod bygonenether
+[03:00:08] [main/WARN]: Error loading class: net/minecraft/class_293 (java.lang.ClassNotFoundException: net/minecraft/class_293)
+[03:00:08] [main/WARN]: @Mixin target net.minecraft.class_293 was not found creativecore.fabric.mixins.json:VertexFormatMixin from mod creativecore
+[03:00:08] [main/WARN]: Error loading class: net/minecraft/class_746 (java.lang.ClassNotFoundException: net/minecraft/class_746)
+[03:00:08] [main/WARN]: @Mixin target net.minecraft.class_746 was not found enchantmentsplus.mixins.json:ClientPlayerEntityMixin from mod enchantmentsplus
+[03:00:08] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
+[03:00:08] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found inmis.mixins.json:client.PlayerEntityFeatureMixin from mod inmis
+[03:00:08] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[03:00:08] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking.sleeping.brewing_stand' (added by mods [extraalchemy]) disables it and children
+[03:00:08] [main/WARN]: Force-disabling mixin 'world.combined_heightmap_update.HeightmapAccessor' as rule 'mixin.world.combined_heightmap_update' (added by mods [imm_ptl_core]) disables it and children
+[03:00:08] [main/WARN]: Force-disabling mixin 'world.combined_heightmap_update.WorldChunkMixin' as rule 'mixin.world.combined_heightmap_update' (added by mods [imm_ptl_core]) disables it and children
+[03:00:08] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [imm_ptl_core]) disables it and children
+[03:00:08] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[03:00:08] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[03:00:08] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[03:00:09] [main/WARN]: Error loading class: net/minecraft/class_572$class_573 (java.lang.ClassNotFoundException: net/minecraft/class_572$class_573)
+[03:00:09] [main/WARN]: @Mixin target net.minecraft.class_572$class_573 was not found mixins.mm.json:net.minecraft.class_572$class_573 from mod mm
+[03:00:09] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[03:00:10] [main/WARN]: @Final field field_6248:Lnet/minecraft/class_2371; in wooledboots.mixins.json:LivingEntityEdits from mod wooledboots should be final
+[03:00:18] [main/INFO]: [bclib] Added Config betternether.main to auto sync (file hash)
+[03:00:18] [main/INFO]: [bclib] Added Config betternether.generator to auto sync (file hash)
+[03:00:18] [main/INFO]: [bclib] Added Config betternether.blocks to auto sync (file hash)
+[03:00:18] [main/INFO]: [bclib] Added Config betternether.items to auto sync (file hash)
+[03:00:18] [main/INFO]: [bclib] Added Config betternether.biomes to auto sync (file hash)
+[03:00:18] [main/INFO]: [bclib] Added Config betternether.mobs to auto sync (file hash)
+[03:00:18] [main/INFO]: [bclib] Added Config betternether.recipes to auto sync (file hash)
+[03:00:18] [main/WARN]: [bclib] Recipe betternether:bone_block_bone_button only takes in a single item and should be shapeless
+[03:00:19] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[03:00:19] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[03:00:19] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[03:00:19] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[03:00:19] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[03:00:19] [main/ERROR]: No data fixer registered for artifacts:mimic
+[03:00:19] [main/INFO]: Registered azurelib config for auto-sync function
+[03:00:19] [main/INFO]: Constructing common components for barteringstation:main
+[03:00:19] [main/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
+[03:00:19] [main/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
+[03:00:19] [main/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
+[03:00:19] [main/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
+[03:00:19] [main/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
+[03:00:19] [main/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
+[03:00:19] [main/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
+[03:00:19] [main/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
+[03:00:19] [main/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[03:00:20] [main/INFO]: Reflections took 55 ms to scan 1 urls, producing 1 keys and 2 values
+[03:00:20] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[03:00:20] [main/INFO]: [betternether] =^..^=    BetterNether for 1.20    =^..^=
+[03:00:20] [main/INFO]: Biolith is initializing...
+[03:00:20] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
+[03:00:20] [main/ERROR]: No data fixer registered for dead_body
+[03:00:20] [main/ERROR]: No data fixer registered for bygonenether:netherite_bell
+[03:00:20] [main/INFO]: Registering C2S receiver with id candlelight:typewriter_sync
+[03:00:20] [main/INFO]: Registering C2S receiver with id candlelight:sign_note
+[03:00:20] [main/INFO]: [STDOUT]: All 35 have been set properly
+[03:00:20] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
+[03:00:20] [main/INFO]: Loading Collective version 7.22.
+[03:00:21] [main/INFO]: Initialized entity types.
+[03:00:21] [Cicada thread 0/INFO]: [cicada] Oh hi there BCLib, try not to cause any trouble will ya?
+[03:00:21] [main/ERROR]: No data fixer registered for deeperdarker:boat
+[03:00:21] [main/ERROR]: No data fixer registered for deeperdarker:chest_boat
+[03:00:21] [main/ERROR]: No data fixer registered for deeperdarker:sculk_centipede
+[03:00:21] [main/ERROR]: No data fixer registered for deeperdarker:sculk_leech
+[03:00:21] [main/ERROR]: No data fixer registered for deeperdarker:sculk_snapper
+[03:00:21] [main/ERROR]: No data fixer registered for deeperdarker:shattered
+[03:00:21] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
+[03:00:21] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
+[03:00:21] [main/INFO]: Deserializing DDConfig from '.\config\deeperdarker.json5'
+[03:00:21] [main/INFO]: Constructing common components for diagonalblocks:main
+[03:00:21] [main/INFO]: Constructing common components for diagonalfences:main
+[03:00:21] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 20ms
+[03:00:21] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 18ms
+[03:00:21] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 46ms
+[03:00:21] [main/ERROR]: No data fixer registered for doapi:chair
+[03:00:21] [main/WARN]: Lithium detected. MmmMmmMmmMmm scarecrow mode has been disabled as lithium doesnt have a way to add goals to new entities
+[03:00:21] [main/INFO]: Constructing common components for easyanvils:main
+[03:00:21] [main/INFO]: Constructing common components for easymagic:main
+[03:00:21] [main/INFO]: [evs] Enchanted Vertical Slabs initialized!
+[03:00:21] [main/INFO]: Constructing common components for enchantinginfuser:main
+[03:00:21] [main/INFO]: enchantmentsplus is now loaded
+[03:00:22] [main/ERROR]: No data fixer registered for badlands_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for cave_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for crimson_forest_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for dark_oak_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for desert_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for end_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for end_islands_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for flower_fields_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for ice_spikes_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for mushroom_fields_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for nether_wastes_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for coral_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for savanna_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for snowy_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for soulsand_valley_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for swamp_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for warped_forest_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for windswept_hills_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for pet_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for hammerhead_pet_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for axolotl_pet_enderman
+[03:00:22] [main/ERROR]: No data fixer registered for scarab
+[03:00:22] [main/ERROR]: No data fixer registered for spirit
+[03:00:22] [main/ERROR]: No data fixer registered for ender_bullet
+[03:00:22] [main/ERROR]: No data fixer registered for corrupted_pearl
+[03:00:22] [main/ERROR]: No data fixer registered for soul_pearl
+[03:00:22] [main/ERROR]: No data fixer registered for ancient_pearl
+[03:00:22] [main/ERROR]: No data fixer registered for bubble_pearl
+[03:00:22] [main/ERROR]: No data fixer registered for summoner_pearl
+[03:00:22] [main/ERROR]: No data fixer registered for icy_pearl
+[03:00:22] [main/ERROR]: No data fixer registered for crimson_pearl
+[03:00:22] [main/ERROR]: No data fixer registered for warped_pearl
+[03:00:22] [main/INFO]: ExpandAbility here, who dis?
+[03:00:22] [main/INFO]: Registered 14 status effects
+[03:00:22] [main/INFO]: Registered dummy effects
+[03:00:22] [main/INFO]: Registered 37 potions
+[03:00:22] [main/INFO]: Initialized Frostiful!
+[03:00:22] [main/INFO]: Is initializing.
+[03:00:22] [main/INFO]: Has successfully been initialized.
+[03:00:22] [main/ERROR]: No data fixer registered for handcrafted
+[03:00:22] [main/INFO]: Initializing HealingbedMod
+[03:00:22] [main/ERROR]: No data fixer registered for provoker
+[03:00:22] [main/ERROR]: No data fixer registered for invoker
+[03:00:22] [main/ERROR]: No data fixer registered for necromancer
+[03:00:22] [main/ERROR]: No data fixer registered for basher
+[03:00:22] [main/ERROR]: No data fixer registered for sorcerer
+[03:00:22] [main/ERROR]: No data fixer registered for archivist
+[03:00:22] [main/ERROR]: No data fixer registered for inquisitor
+[03:00:22] [main/ERROR]: No data fixer registered for marauder
+[03:00:22] [main/ERROR]: No data fixer registered for alchemist
+[03:00:22] [main/ERROR]: No data fixer registered for firecaller
+[03:00:22] [main/ERROR]: No data fixer registered for surrendered
+[03:00:22] [main/ERROR]: No data fixer registered for invoker_fangs
+[03:00:22] [main/ERROR]: No data fixer registered for flying_magma
+[03:00:22] [main/INFO]: Constructing common components for illagerinvasion:main
+[03:00:22] [main/INFO]: Loading Immersive Portals config
+[03:00:22] [main/INFO]: IP Config Applied
+[03:00:22] [main/INFO]: Immersive Portals Mod Initializing
+[03:00:22] [main/INFO]: Dimensional Threading is not present
+[03:00:22] [main/INFO]: Pehkui is not present
+[03:00:22] [main/INFO]: Gravity API is not present
+[03:00:22] [main/INFO]: Processing 3 KiwiModule annotations
+[03:00:23] [main/INFO]: Module [kiwi:contributors] initialized
+[03:00:23] [main/INFO]: Module [snowrealmagic:core] initialized
+[03:00:23] [main/INFO]:     block: 7
+[03:00:23] [main/INFO]:     block_entity_type: 2
+[03:00:23] [main/INFO]:     entity_type: 1
+[03:00:23] [main/INFO]:     loot_pool_entry_type: 1
+[03:00:23] [main/INFO]: Module [kiwi:data] initialized
+[03:00:23] [main/INFO]:     recipe_serializer: 3
+[03:00:23] [main/INFO]: Initializing MagicVibeDecorationsMod
+[03:00:23] [main/ERROR]: No data fixer registered for cerberus
+[03:00:23] [main/ERROR]: No data fixer registered for creeperling
+[03:00:23] [main/ERROR]: No data fixer registered for cursed_armor
+[03:00:23] [main/ERROR]: No data fixer registered for tank
+[03:00:23] [main/INFO]: Definitely not up to no good
+[03:00:23] [main/ERROR]: No data fixer registered for creeper_minion
+[03:00:23] [main/ERROR]: No data fixer registered for mutant_creeper
+[03:00:23] [main/ERROR]: No data fixer registered for mutant_enderman
+[03:00:23] [main/ERROR]: No data fixer registered for mutant_skeleton
+[03:00:23] [main/ERROR]: No data fixer registered for mutant_snow_golem
+[03:00:23] [main/ERROR]: No data fixer registered for mutant_zombie
+[03:00:23] [main/ERROR]: No data fixer registered for spider_pig
+[03:00:23] [main/ERROR]: No data fixer registered for body_part
+[03:00:23] [main/ERROR]: No data fixer registered for creeper_minion_egg
+[03:00:23] [main/ERROR]: No data fixer registered for endersoul_clone
+[03:00:23] [main/ERROR]: No data fixer registered for endersoul_fragment
+[03:00:23] [main/ERROR]: No data fixer registered for throwable_block
+[03:00:23] [main/INFO]: Constructing common components for mutantmonsters:main
+[03:00:23] [main/INFO]: Loading common config for mutantmonsters
+[03:00:23] [main/INFO]: Necronomicon Initialized
+[03:00:23] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[03:00:23] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[03:00:24] [main/INFO]: dead people should put things in their grave, I have bills to pay - Blodgharm
+[03:00:24] [main/INFO]: Constructing common components for puzzleslib:main
+[03:00:24] [main/INFO]: Registering ItemGroups: rlovelyr
+[03:00:24] [main/INFO]: Registering Items: rlovelyr
+[03:00:24] [main/INFO]: [Fabric Seasons] Trying to read config file...
+[03:00:24] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
+[03:00:24] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
+[03:00:24] [main/ERROR]: No data fixer registered for battlestandard
+[03:00:24] [main/ERROR]: No data fixer registered for battlestandarddark
+[03:00:24] [main/INFO]: [STDOUT]: C:\minecraft\fabric サーバー\config
+[03:00:24] [main/INFO]: Hello Fabric world!
+[03:00:24] [main/INFO]: Config initialized!
+[03:00:24] [main/INFO]: Successfully initialized Geckolib!
+[03:00:24] [main/INFO]: Successfully registered SoulsWeapons content!
+[03:00:24] [main/INFO]: Successfully registered recipes!
+[03:00:24] [main/INFO]: Successfully registered built-in 2D model resourcepack!
+[03:00:24] [main/INFO]: Initializing done, time taken: 157ms
+[03:00:24] [main/INFO]: Hello Fabric world!
+[03:00:25] [main/INFO]: Creating environment manager EnvironmentManager{controller=com.github.thedeathlycow.thermoo.api.temperature.EmptyEnvironmentController}
+[03:00:25] [main/INFO]: Thermoo initialized
+[03:00:25] [main/INFO]: Constructing common components for tinyskeletons:main
+[03:00:25] [main/ERROR]: No data fixer registered for baby_skeleton
+[03:00:25] [main/ERROR]: No data fixer registered for baby_wither_skeleton
+[03:00:25] [main/ERROR]: No data fixer registered for baby_stray
+[03:00:25] [main/INFO]: Config loaded
+[03:00:25] [main/INFO]: Tom's Storage Setup starting
+[03:00:25] [main/INFO]: Start initializing mod!
+[03:00:25] [main/INFO]: Registries are initialized!
+[03:00:25] [main/INFO]: Items are initialized!
+[03:00:25] [main/INFO]: Entities are initialized!
+[03:00:25] [main/INFO]: Inventories are initialized!
+[03:00:25] [main/INFO]: Sounds are initialized!
+[03:00:25] [main/INFO]: Tags are initialized!
+[03:00:25] [main/INFO]: Succeeded initializing mod!
+[03:00:25] [main/INFO]: Setup Complete
+[03:00:25] [main/INFO]: Constructing common components for visualworkbench:main
+[03:00:25] [main/INFO]: Loading up Void Totem (Fabric)
+[03:00:25] [main/INFO]: Wabi-Sabi Structures initialized
+[03:00:25] [main/INFO]: [STDOUT]: Config updated!
+[03:00:25] [main/INFO]: [STDOUT]: Config loaded!
+[03:00:25] [main/INFO]: Registering C2S receiver with id wands:key_packet
+[03:00:25] [main/INFO]: Registering C2S receiver with id wands:palette_packet
+[03:00:25] [main/INFO]: Registering C2S receiver with id wands:wand_packet
+[03:00:25] [main/INFO]: Registering C2S receiver with id wands:pos_packet
+[03:00:25] [main/INFO]: Registering C2S receiver with id wands:global_settings_packet
+[03:00:25] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[03:00:25] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[03:00:25] [main/INFO]: Its Morbin' time
+[03:00:25] [main/INFO]: Initialized Frostiful server!
+[03:00:25] [main/INFO]: Initialized block sets in 12ms
+[03:00:25] [main/ERROR]: No data fixer registered for target_dummy
+[03:00:25] [main/INFO]: Loaded config dummmmmmy-common.json
+[03:00:25] [main/INFO]: Initialized color sets in 26ms
+[03:00:25] [Worker-Main-1/INFO]: ImmPtl mod info fetched
+[03:00:25] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:00:25] [main/INFO]: [DataFixerAPI] Applying Patch{betternether:5.3.5:21020677}
+[03:00:25] [main/INFO]: [DataFixerAPI] Applying Patch{betternether:8.2.2:33587202}
+[03:00:25] [main/INFO]: [DataFixerAPI] Applying Patch{betternether:9.0.1:37748737}
+[03:00:25] [main/INFO]: [DataFixerAPI] Applying Patch{bclib:3.0.11:12582923}
+[03:00:25] [main/INFO]: [bclib] Running Pre Patchers on .\world\.
+[03:00:25] [main/WARN]: [bclib] Applying Fixes on Level
+[03:00:25] [main/INFO]: [bclib] Patcher Stage... Reading Data%
+[03:00:25] [main/INFO]: [bclib] Patcher Stage... Fixing Players%
+[03:00:25] [main/INFO]: [DataFixerAPI] Inspecting .\world\.\playerdata\a54f7ba3-96b4-432e-adca-08f05ee97ffc.dat
+[03:00:25] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting .\world\.\playerdata\546795e7-339a-4272-84ed-84f79b4add22.dat
+[03:00:25] [main/INFO]: [bclib] Patcher Stage... Applying Patches to level.dat%
+[03:00:25] [main/INFO]: [DataFixerAPI] Inspecting level.dat in .\world\.
+[03:00:25] [main/INFO]: [bclib] Patcher Stage... Patching Custom World-Data%
+[03:00:25] [main/INFO]: [bclib] Patcher Stage... Repairing all Regions%
+[03:00:25] [main/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.-1.-1.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.-1.-2.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting .\world\.\entities\r.0.-1.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-4/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.-2.-1.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.-2.-2.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-5/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.-1.-1.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-6/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.-2.0.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-8/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.-1.0.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-7/INFO]: [DataFixerAPI] Inspecting .\world\.\entities\r.-1.-2.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-9/INFO]: [DataFixerAPI] Inspecting .\world\.\entities\r.0.0.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-10/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.0.-1.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-14/INFO]: [DataFixerAPI] Inspecting .\world\.\entities\r.-1.0.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-12/INFO]: [DataFixerAPI] Inspecting .\world\.\entities\r.-1.-1.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-15/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.-1.-2.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-16/INFO]: [DataFixerAPI] Inspecting .\world\.\entities\r.0.-2.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-13/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.-1.0.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-11/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.0.-2.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-18/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.0.0.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-17/INFO]: [DataFixerAPI] Inspecting .\world\.\poi\r.0.-1.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-19/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.-2.-2.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.0.0.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-4/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.0.-2.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-6/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.-2.-1.mca
+[03:00:25] [ForkJoinPool.commonPool-worker-11/INFO]: [DataFixerAPI] Inspecting .\world\.\region\r.-2.0.mca
+[03:00:26] [main/INFO]: [bclib] Patcher Stage... Saving Patch State%
+[03:00:26] [main/INFO]: [DataFixerAPI] Updating Patch-Level for 'betternether' from 0.0.0 to 9.0.1
+[03:00:26] [main/INFO]: [DataFixerAPI] Updating Patch-Level for 'bclib' from 0.0.0 to 3.0.11
+[03:00:26] [main/INFO]: Found new data pack file/CraftSound_for_1.20.zip, loading it automatically
+[03:00:26] [main/INFO]: Found new data pack file/Nyctocosm_Datapack_v0.1.5b_fix.zip, loading it automatically
+[03:00:26] [main/INFO]: Found new data pack file/hard-ender-dragon-ex-2-6-2-16-1-18.zip, loading it automatically
+[03:00:26] [main/WARN]: Ignored non-lowercase namespace: How to add item.txt in .\world\datapacks\CraftSound_for_1.20.zip
+[03:00:26] [main/WARN]: Ignored non-lowercase namespace: How to add item.txt in .\world\datapacks\CraftSound_for_1.20.zip
+[03:00:26] [main/INFO]: [bclib] Did not manage biome betterend:empty_aurora_cave
+[03:00:26] [main/INFO]: [bclib] Did not manage biome betterend:empty_end_cave
+[03:00:26] [main/INFO]: [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[03:00:26] [main/INFO]: [bclib] Did not manage biome betterend:jade_cave
+[03:00:26] [main/INFO]: [bclib] Did not manage biome betterend:lush_aurora_cave
+[03:00:26] [main/INFO]: [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[03:00:26] [main/INFO]: [bclib] Did not manage biome betterend:megalake_grove
+[03:00:26] [main/INFO]: [bclib] Did not manage biome betterend:neon_oasis
+[03:00:26] [main/INFO]: [bclib] Did not manage biome betterend:painted_mountains
+[03:00:28] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (4e7b7771)
+[03:00:28] [main/INFO]: [bclib] Unable to build Biome List yet
+[03:00:28] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[03:00:28] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[03:00:28] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[03:00:28] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[03:00:28] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (4c7f2eba)
+[03:00:28] [main/INFO]: [bclib] Unable to build Biome List yet
+[03:00:28] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[03:00:28] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7cc766d9)
+[03:00:28] [main/INFO]: [bclib] Unable to build Biome List yet
+[03:00:28] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[03:00:28] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[03:00:28] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[03:00:28] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[03:00:28] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (7229fab)
+[03:00:28] [main/INFO]: [bclib] Unable to build Biome List yet
+[03:00:28] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[03:00:28] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (398438c0)
+[03:00:28] [main/INFO]: [bclib] Unable to build Biome List yet
+[03:00:28] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[03:00:28] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[03:00:28] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[03:00:28] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[03:00:28] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (2c4e0a49)
+[03:00:28] [main/INFO]: [bclib] Unable to build Biome List yet
+[03:00:28] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[03:00:28] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (36c42c08)
+[03:00:28] [main/INFO]: [bclib] Unable to build Biome List yet
+[03:00:28] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[03:00:28] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[03:00:28] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[03:00:28] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[03:00:28] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (568eb06a)
+[03:00:28] [main/INFO]: [bclib] Unable to build Biome List yet
+[03:00:28] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[03:00:29] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[03:00:29] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[03:00:29] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[03:00:29] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[03:00:29] [main/WARN]: [bclib] No valid BCLBiome Registry available!
+[03:00:29] [main/WARN]: [bclib] No valid Biome Registry available!
+[03:00:29] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[03:00:29] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (1d0e0add)
+[03:00:29] [main/INFO]: [bclib] Unable to build Biome List yet
+[03:00:29] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[03:00:29] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7d2a3f35)
+[03:00:29] [main/INFO]: [bclib] Unable to build Biome List yet
+[03:00:29] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[03:00:29] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[03:00:29] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[03:00:29] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibEndBiomeSource
+[03:00:29] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[03:00:29] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[03:00:33] [Worker-Main-10/ERROR]: Couldn't load tag frozenlib:dont_emit_use_game_events as it is missing following references: deeperdarker:transmitter (from fabric)
+[03:00:34] [Worker-Main-13/ERROR]: Couldn't load tag dummmmmmy:is_explosion as it is missing following references: attributeslib:detonation (from fabric)
+[03:00:34] [Worker-Main-13/ERROR]: Couldn't load tag dummmmmmy:is_cold as it is missing following references: attributeslib:cold_damage (from fabric)
+[03:00:34] [Worker-Main-13/ERROR]: Couldn't load tag dummmmmmy:is_fire as it is missing following references: attributeslib:fire_damage (from fabric)
+[03:00:42] [Worker-Main-1/ERROR]: Couldn't load tag umu_little_maid:maid_healer_site as it is missing following references: umu_little_maid:amethyst_block (from fabric)
+[03:00:42] [Worker-Main-1/ERROR]: Couldn't load tag umu_little_maid:maid_hunter_site as it is missing following references: umu_little_maid:target (from fabric)
+[03:00:42] [Worker-Main-1/ERROR]: Couldn't load tag umu_little_maid:maid_poseidon_site as it is missing following references: umu_little_maid:conduit (from fabric)
+[03:00:42] [Worker-Main-1/ERROR]: Couldn't load tag umu_little_maid:maid_archer_site as it is missing following references: umu_little_maid:target (from fabric)
+[03:00:42] [Worker-Main-1/ERROR]: Couldn't load tag umu_little_maid:maid_farmer_site as it is missing following references: umu_little_maid:scarecrow (from fabric)
+[03:00:51] [main/INFO]: [bclib] Disabling Recipe: bclib:test_star
+[03:00:51] [main/WARN]: The ring recipe extraalchemy:ring_recipes/extraalchemy_shrinking_strong has no non-instant effects associated with extraalchemy:shrinking_strong, this functionality is meant for long lasting effects.
+[03:00:51] [main/WARN]: The ring recipe extraalchemy:ring_recipes/extraalchemy_growing has no non-instant effects associated with extraalchemy:growing, this functionality is meant for long lasting effects.
+[03:00:51] [main/ERROR]: Parsing error loading recipe wooledboots:wooled_diamond_to_netherite
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
 	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
@@ -677,8 +688,8 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.25.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.25.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.25.jar:?]
-[00:55:45] [main/WARN]: The ring recipe extraalchemy:ring_recipes/extraalchemy_shrinking has no non-instant effects associated with extraalchemy:shrinking, this functionality is meant for long lasting effects.
-[00:55:45] [main/ERROR]: Parsing error loading recipe betterend:guide_book
+[03:00:51] [main/WARN]: The ring recipe extraalchemy:ring_recipes/extraalchemy_shrinking has no non-instant effects associated with extraalchemy:shrinking, this functionality is meant for long lasting effects.
+[03:00:51] [main/ERROR]: Parsing error loading recipe betterend:guide_book
 com.google.gson.JsonSyntaxException: Unknown item 'betterend:guidebook'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
@@ -700,9 +711,24 @@ com.google.gson.JsonSyntaxException: Unknown item 'betterend:guidebook'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.25.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.25.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.25.jar:?]
-[00:55:45] [main/WARN]: The ring recipe extraalchemy:ring_recipes/extraalchemy_growing_strong has no non-instant effects associated with extraalchemy:growing_strong, this functionality is meant for long lasting effects.
-[00:55:45] [main/INFO]: Loaded 15 recipes
-[00:55:45] [main/ERROR]: Failed to load function watching:check
+[03:00:51] [main/WARN]: The ring recipe extraalchemy:ring_recipes/extraalchemy_growing_strong has no non-instant effects associated with extraalchemy:growing_strong, this functionality is meant for long lasting effects.
+[03:00:51] [main/INFO]: Loaded 15 recipes
+[03:00:51] [main/ERROR]: Failed to load function hard_ender_dragon_ex:crystal_discharge3
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: argument.entity.options.type.invalid at position 137: ...stal,type=<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: argument.entity.options.type.invalid at position 137: ...stal,type=<--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	... 7 more
+[03:00:51] [main/ERROR]: Failed to load function watching:check
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: command.unknown.command at position 0: <--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) ~[?:?]
@@ -717,293 +743,307 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
 	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
 	... 7 more
-[00:55:45] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass: Expected items to be a JsonArray, was "min...ss"
-[00:55:45] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cobweb: Expected items to be a JsonArray, was "min...eb"
-[00:55:45] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cracked_stone_bricks: Expected items to be a JsonArray, was "min...ks"
-[00:55:45] [main/INFO]: Loaded 4883 advancements
-[00:55:45] [main/INFO]: Loaded 15 item attribute modifiers
-[00:55:45] [main/INFO]: Reloading Spawner Rune data...
-[00:55:45] [main/INFO]: [Fabric Seasons] Successfully loaded 15 custom crop configs.
-[00:55:45] [main/INFO]: Loaded 3 global temperature effects
-[00:55:45] [main/INFO]: Loaded 12 type specific temperature effects
-[00:55:45] [main/INFO]: Loaded 144 recipes
-[00:55:45] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: 1_splatus:spellbound/hot
-[00:55:47] [main/ERROR]: [worlds_together] Error for jar:file:///C:/syuba/minecraft/server/1.20.1%20fabric/mods/forgery-3.4.0+1.20.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[00:55:47] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///C:/syuba/minecraft/server/1.20.1%20fabric/mods/true-ending-1.0.1b.jar
-[00:55:47] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///C:/syuba/minecraft/server/1.20.1%20fabric/mods/ultris-v5.6.9c.jar
-[00:55:47] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///C:/syuba/minecraft/server/1.20.1%20fabric/mods/umu_little_maid-3.11a.jar
-[00:55:47] [main/INFO]: [bclib] Enforcing Correct Generator for minecraft:the_nether.
-[00:55:47] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (13df50bd)
-[00:55:47] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
-[00:55:47] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (48305d39)
-[00:55:47] [main/INFO]: [worlds_together] Loading originally configured Dimensions in World.
-[00:55:47] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[00:55:48] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[00:55:48] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[00:55:48] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[00:55:48] [main/INFO]: Applied 3230 biome modifications to 244 of 244 new biomes in 103.1 ms
-[00:55:48] [main/INFO]: [majruszlibrary.json] Reloading configuration file took 2 milliseconds
-[00:55:48] [main/INFO]: [majruszsdifficulty.json] Reloading configuration file took 11 milliseconds
-[00:55:48] [Server thread/INFO]: Loading server config for barteringstation
-[00:55:48] [Server thread/INFO]: Loading server config for easyanvils
-[00:55:48] [Server thread/INFO]: Loading server config for easymagic
-[00:55:48] [Thread-3/INFO]: Reloading server config for easymagic
-[00:55:48] [Server thread/INFO]: Loading server config for enchantinginfuser
-[00:55:48] [Server thread/INFO]: Loading server config for illagerinvasion
-[00:55:48] [Thread-3/INFO]: Reloading server config for enchantinginfuser
-[00:55:48] [Server thread/INFO]: Registering server proxy
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/flower_forest_japanese/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/desert_oasis/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mountain_alpine/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/beach_lighthouse/side
-[00:55:48] [Server thread/ERROR]: Cannot add to kaisyn:village/beach_lighthouse/side as it cannot be found!
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/savanna_na/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/swamp/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/savanna/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/snowy_igloo/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/nilotic/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/badlands_pueblo/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/tudor/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mushroom/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/mediterranean/houses/regular
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/taiga/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/birch_forest_romanian/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:red_desert_village_waystone to village ctov:village/mesa_fortified/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/classic/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/wandering_trader_camp/side
-[00:55:48] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/wandering_trader_camp/side as it cannot be found!
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/desert/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/rustic/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village minecraft:village/desert/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/savanna/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/beach/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/plains/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/taiga/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:stone_brick_village_waystone to village ctov:village/underground/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:red_desert_village_waystone to village ctov:village/mesa/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/grove_villager_outpost/decor
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:mossy_stone_brick_village_waystone to village ctov:village/jungle/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mountain/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/halloween/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/jungle_tribal/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/iberian/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/christmas/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/snowy/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/plains/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/swamp_fortified/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/plains_fortified/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/taiga_fortified/house
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/swedish/houses
-[00:55:48] [Server thread/INFO]: Adding waystone fwaystones:mossy_stone_brick_village_waystone to village ctov:village/jungle_tree/house
-[00:55:48] [Server thread/INFO]: [puffish_skills] Configuration loaded successfully!
-[00:55:48] [Server thread/INFO]: Initializing environment controller...
-[00:55:48] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[00:55:48] [Server thread/INFO]: Loading properties
-[00:55:48] [Server thread/INFO]: Default game type: SURVIVAL
-[00:55:48] [Server thread/INFO]: Generating keypair
-[00:55:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:55:48] [Server thread/INFO]: Using default channel type
-[00:55:48] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[00:55:48] [Server thread/INFO]: Preparing level "world"
-[00:55:48] [Server thread/INFO]: [bclib] 
-Apply Modifications for immersive_portals:alternate4
-    ChaosBiomeSource (cecc4d)
-        biomes     = 62
-        namespaces = minecraft(62)
-[00:55:48] [Server thread/INFO]: [bclib] 
-Apply Modifications for immersive_portals:alternate3
-    ChaosBiomeSource (3f36478c)
-        biomes     = 62
-        namespaces = minecraft(62)
-[00:55:48] [Server thread/INFO]: [bclib] 
-Apply Modifications for minecraft:the_nether
-    BCLib - Nether BiomeSource (13df50bd)
-        biomes     = 39
-        namespaces = betternether(22), incendium(8), minecraft(5), cinderscapes(4)
-        seed       = 0
-        height     = 192
-        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
-[00:55:48] [Server thread/INFO]: [bclib] 
+[03:00:51] [main/ERROR]: Parsing error loading custom advancement artifacts:locomotion/dash: Unknown type 'minecraft:alternative'
+[03:00:51] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass: Expected items to be a JsonArray, was "min...ss"
+[03:00:51] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cobweb: Expected items to be a JsonArray, was "min...eb"
+[03:00:51] [main/ERROR]: Parsing error loading custom advancement artifacts:locomotion/enddash: Unknown type 'minecraft:alternative'
+[03:00:51] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cracked_stone_bricks: Expected items to be a JsonArray, was "min...ks"
+[03:00:51] [main/INFO]: Loaded 4571 advancements
+[03:00:52] [main/INFO]: Loaded 15 item attribute modifiers
+[03:00:52] [main/INFO]: Reloading Spawner Rune data...
+[03:00:52] [main/INFO]: [Fabric Seasons] Successfully loaded 15 custom crop configs.
+[03:00:52] [main/INFO]: Loaded 3 global temperature effects
+[03:00:52] [main/INFO]: Loaded 12 type specific temperature effects
+[03:00:52] [main/INFO]: Loaded 144 recipes
+[03:00:52] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: 1_splatus:spellbound/hot
+[03:00:54] [main/ERROR]: [worlds_together] Error for jar:file:///C:/minecraft/fabric%20サーバー/mods/forgery-3.4.0+1.20.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[03:00:54] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///C:/minecraft/fabric%20サーバー/mods/true-ending-1.0.1b.jar
+[03:00:54] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///C:/minecraft/fabric%20サーバー/mods/ultris-v5.6.9c.jar
+[03:00:54] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///C:/minecraft/fabric%20サーバー/mods/umu_little_maid-3.11a.jar
+[03:00:54] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7d2a3f35)
+[03:00:54] [main/INFO]: [bclib] Enforcing Correct Generator for minecraft:the_nether.
+[03:00:54] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (568eb06a)
+[03:00:54] [main/INFO]: [bclib] Make sure features are loaded from terrablender:org.betterx.bclib.api.v2.generator.BCLibNetherBiomeSource
+[03:00:54] [main/INFO]: [worlds_together] Loading originally configured Dimensions in World.
+[03:00:54] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[03:00:54] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[03:00:54] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[03:00:54] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[03:00:54] [main/INFO]: Applied 3236 biome modifications to 250 of 250 new biomes in 95.17 ms
+[03:00:54] [main/INFO]: [majruszlibrary.json] Reloading configuration file took 2 milliseconds
+[03:00:54] [main/INFO]: [majruszsdifficulty.json] Reloading configuration file took 12 milliseconds
+[03:00:55] [Server thread/INFO]: Loading server config for barteringstation
+[03:00:55] [Server thread/INFO]: Loading server config for easyanvils
+[03:00:55] [Server thread/INFO]: Loading server config for easymagic
+[03:00:55] [Server thread/INFO]: Loading server config for enchantinginfuser
+[03:00:55] [Server thread/INFO]: Loading server config for illagerinvasion
+[03:00:55] [Thread-3/INFO]: Reloading server config for enchantinginfuser
+[03:00:55] [Server thread/INFO]: Registering server proxy
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/flower_forest_japanese/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/desert_oasis/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mountain_alpine/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/beach_lighthouse/side
+[03:00:55] [Server thread/ERROR]: Cannot add to kaisyn:village/beach_lighthouse/side as it cannot be found!
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/savanna_na/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/swamp/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/savanna/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/snowy_igloo/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/nilotic/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/badlands_pueblo/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/tudor/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mushroom/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/mediterranean/houses/regular
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/taiga/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/birch_forest_romanian/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:red_desert_village_waystone to village ctov:village/mesa_fortified/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/classic/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/wandering_trader_camp/side
+[03:00:55] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/wandering_trader_camp/side as it cannot be found!
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/desert/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/rustic/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village minecraft:village/desert/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/savanna/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/beach/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/plains/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/taiga/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:stone_brick_village_waystone to village ctov:village/underground/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:red_desert_village_waystone to village ctov:village/mesa/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/grove_villager_outpost/decor
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:mossy_stone_brick_village_waystone to village ctov:village/jungle/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mountain/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/halloween/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/jungle_tribal/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/iberian/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/christmas/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/snowy/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/plains/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/swamp_fortified/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/plains_fortified/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/taiga_fortified/house
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/swedish/houses
+[03:00:55] [Server thread/INFO]: Adding waystone fwaystones:mossy_stone_brick_village_waystone to village ctov:village/jungle_tree/house
+[03:00:55] [Server thread/INFO]: [puffish_skills] Configuration loaded successfully!
+[03:00:55] [Server thread/INFO]: Initializing environment controller...
+[03:00:55] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[03:00:55] [Server thread/INFO]: Loading properties
+[03:00:55] [Server thread/INFO]: Default game type: SURVIVAL
+[03:00:55] [Server thread/INFO]: Generating keypair
+[03:00:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:00:55] [Server thread/INFO]: Using default channel type
+[03:00:55] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[03:00:55] [Server thread/INFO]: Preparing level "world"
+[03:00:55] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecells:prison
+    class_1992 (63b914dc)
+        biomes     = 1
+        namespaces = minecells(1)
+[03:00:55] [Server thread/INFO]: [bclib] 
 Apply Modifications for immersive_portals:alternate1
-    class_4766 (4f9f546b)
+    class_4766 (674c1796)
         biomes     = 53
         namespaces = minecraft(53)
-[00:55:48] [Server thread/INFO]: [bclib] 
-Apply Modifications for immersive_portals:alternate5
-    class_1992 (b08ed3c)
-        biomes     = 1
-        namespaces = minecraft(1)
-[00:55:48] [Server thread/INFO]: [bclib] 
-Apply Modifications for minecells:prison
-    class_1992 (6fbd356a)
-        biomes     = 1
-        namespaces = minecells(1)
-[00:55:48] [Server thread/INFO]: [bclib] 
-Apply Modifications for minecells:promenade
-    class_1992 (66d77261)
-        biomes     = 1
-        namespaces = minecells(1)
-[00:55:48] [Server thread/INFO]: [bclib] 
+[03:00:55] [Server thread/INFO]: [bclib] 
+Apply Modifications for immersive_portals:alternate2
+    class_4766 (5e901656)
+        biomes     = 53
+        namespaces = minecraft(53)
+[03:00:55] [Server thread/INFO]: [bclib] 
 Apply Modifications for the_bumblezone:the_bumblezone
-    BzBiomeSource (1a7b0e24)
+    BzBiomeSource (1c582ed)
         biomes     = 8
         namespaces = the_bumblezone(8)
-[00:55:48] [Server thread/INFO]: [bclib] 
-Apply Modifications for spellbladenext:glassocean
-    class_1992 (7a633947)
+[03:00:55] [Server thread/INFO]: [bclib] 
+Apply Modifications for immersive_portals:alternate5
+    class_1992 (f00a1a4)
         biomes     = 1
-        namespaces = spellbladenext(1)
-[00:55:48] [Server thread/INFO]: [bclib] 
-Apply Modifications for minecells:insufferable_crypt
-    class_1992 (46962267)
+        namespaces = minecraft(1)
+[03:00:55] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecells:promenade
+    class_1992 (52f1f399)
         biomes     = 1
         namespaces = minecells(1)
-[00:55:48] [Server thread/INFO]: [bclib] 
-Apply Modifications for immersive_portals:alternate2
-    class_4766 (4f7c7353)
-        biomes     = 53
-        namespaces = minecraft(53)
-[00:55:48] [Server thread/INFO]: [bclib] 
-Apply Modifications for minecraft:overworld
-    class_4766 (5855d12e)
-        biomes     = 151
-        namespaces = minecraft(53), terralith(94), promenade(4)
-[00:55:48] [Server thread/INFO]: [bclib] 
-Apply Modifications for deeperdarker:otherside
-    class_4766 (6ec74b88)
-        biomes     = 3
-        namespaces = deeperdarker(3)
-[00:55:48] [Server thread/INFO]: [bclib] 
+[03:00:55] [Server thread/INFO]: [bclib] 
 Apply Modifications for minecraft:the_end
-    BCLib - The End  BiomeSource (48305d39)
+    BCLib - The End  BiomeSource (7d2a3f35)
         biomes     = 26
-        namespaces = minecraft(5), promenade(2), betterend(19)
-        seed       = 246170960434215997
+        namespaces = betterend(19), minecraft(5), promenade(2)
+        seed       = 7320901029969447460
         height     = 128
         deciders   = 0
         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
-[00:55:48] [Server thread/INFO]: [bclib] World Dimensions: 
- - immersive_portals:alternate4: 
-     qouteall.imm_ptl.peripheral.alternate_dimension.ErrorTerrainGenerator@24ed5117 
-     ChaosBiomeSource (cecc4d)
-         biomes     = 62
-         namespaces = minecraft(62)
- - immersive_portals:alternate3: 
-     qouteall.imm_ptl.peripheral.alternate_dimension.ErrorTerrainGenerator@36d323ef 
-     ChaosBiomeSource (3f36478c)
-         biomes     = 62
-         namespaces = minecraft(62)
- - minecraft:the_nether: 
-     BCLib - Chunk Generator (5b514799) 
-     BCLib - Nether BiomeSource (13df50bd)
-         biomes     = 39
-         namespaces = betternether(22), incendium(8), minecraft(5), cinderscapes(4)
-         seed       = 0
-         height     = 192
-         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[03:00:55] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecells:insufferable_crypt
+    class_1992 (b380a2f)
+        biomes     = 1
+        namespaces = minecells(1)
+[03:00:55] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_nether
+    BCLib - Nether BiomeSource (568eb06a)
+        biomes     = 39
+        namespaces = betternether(22), cinderscapes(4), minecraft(5), incendium(8)
+        seed       = 0
+        height     = 192
+        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[03:00:55] [Server thread/INFO]: [bclib] 
+Apply Modifications for nyctocosm:nyctocosm
+    class_4766 (22d90983)
+        biomes     = 6
+        namespaces = nyctocosm(6)
+[03:00:55] [Server thread/INFO]: [bclib] 
+Apply Modifications for spellbladenext:glassocean
+    class_1992 (57beeea6)
+        biomes     = 1
+        namespaces = spellbladenext(1)
+[03:00:55] [Server thread/INFO]: [bclib] 
+Apply Modifications for immersive_portals:alternate4
+    ChaosBiomeSource (6a1e37f5)
+        biomes     = 62
+        namespaces = minecraft(62)
+[03:00:55] [Server thread/INFO]: [bclib] 
+Apply Modifications for deeperdarker:otherside
+    class_4766 (60d60193)
+        biomes     = 3
+        namespaces = deeperdarker(3)
+[03:00:55] [Server thread/INFO]: [bclib] 
+Apply Modifications for immersive_portals:alternate3
+    ChaosBiomeSource (761bafd7)
+        biomes     = 62
+        namespaces = minecraft(62)
+[03:00:55] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:overworld
+    class_4766 (e635fc3)
+        biomes     = 151
+        namespaces = minecraft(53), terralith(94), promenade(4)
+[03:00:55] [Server thread/INFO]: [bclib] World Dimensions: 
+ - minecells:prison: 
+     net.minecraft.class_2897@22ef42ac 
+     class_1992 (63b914dc)
+         biomes     = 1
+         namespaces = minecells(1)
  - immersive_portals:alternate1: 
-     qouteall.imm_ptl.peripheral.alternate_dimension.NormalSkylandGenerator@38cfb9b3 
-     class_4766 (4f9f546b)
+     qouteall.imm_ptl.peripheral.alternate_dimension.NormalSkylandGenerator@7ab74881 
+     class_4766 (674c1796)
          biomes     = 53
          namespaces = minecraft(53)
- - immersive_portals:alternate5: 
-     net.minecraft.class_2897@5a340e4b 
-     class_1992 (b08ed3c)
-         biomes     = 1
-         namespaces = minecraft(1)
- - minecells:prison: 
-     net.minecraft.class_2897@2afa0b0f 
-     class_1992 (6fbd356a)
-         biomes     = 1
-         namespaces = minecells(1)
- - minecells:promenade: 
-     net.minecraft.class_3754@1c6b7ea6 
-     class_1992 (66d77261)
-         biomes     = 1
-         namespaces = minecells(1)
+ - immersive_portals:alternate2: 
+     qouteall.imm_ptl.peripheral.alternate_dimension.NormalSkylandGenerator@6b2c50a 
+     class_4766 (5e901656)
+         biomes     = 53
+         namespaces = minecraft(53)
  - the_bumblezone:the_bumblezone: 
-     com.telepathicgrunt.the_bumblezone.worldgen.dimension.BzChunkGenerator@3dbaee18 
-     BzBiomeSource (1a7b0e24)
+     com.telepathicgrunt.the_bumblezone.worldgen.dimension.BzChunkGenerator@1f8abdca 
+     BzBiomeSource (1c582ed)
          biomes     = 8
          namespaces = the_bumblezone(8)
- - spellbladenext:glassocean: 
-     net.minecraft.class_2897@38ab1201 
-     class_1992 (7a633947)
+ - immersive_portals:alternate5: 
+     net.minecraft.class_2897@22ff8843 
+     class_1992 (f00a1a4)
          biomes     = 1
-         namespaces = spellbladenext(1)
- - minecells:insufferable_crypt: 
-     net.minecraft.class_2897@2cb6de83 
-     class_1992 (46962267)
+         namespaces = minecraft(1)
+ - minecells:promenade: 
+     net.minecraft.class_3754@185f70e0 
+     class_1992 (52f1f399)
          biomes     = 1
          namespaces = minecells(1)
- - immersive_portals:alternate2: 
-     qouteall.imm_ptl.peripheral.alternate_dimension.NormalSkylandGenerator@2fa75ba7 
-     class_4766 (4f7c7353)
-         biomes     = 53
-         namespaces = minecraft(53)
- - minecraft:overworld: 
-     net.minecraft.class_3754@428d4e61 
-     class_4766 (5855d12e)
-         biomes     = 151
-         namespaces = minecraft(53), terralith(94), promenade(4)
- - deeperdarker:otherside: 
-     net.minecraft.class_3754@7b284f94 
-     class_4766 (6ec74b88)
-         biomes     = 3
-         namespaces = deeperdarker(3)
  - minecraft:the_end: 
-     BCLib - Chunk Generator (d823d7e) 
-     BCLib - The End  BiomeSource (48305d39)
+     BCLib - Chunk Generator (78552ed2) 
+     BCLib - The End  BiomeSource (7d2a3f35)
          biomes     = 26
-         namespaces = minecraft(5), promenade(2), betterend(19)
-         seed       = 246170960434215997
+         namespaces = betterend(19), minecraft(5), promenade(2)
+         seed       = 7320901029969447460
          height     = 128
          deciders   = 0
          config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
-[00:55:48] [Server thread/INFO]: [bclib] Merged 22 additional Surface Rules for 
-BCLib - Nether BiomeSource (13df50bd)
-    biomes     = 39
-    namespaces = betternether(22), incendium(8), minecraft(5), cinderscapes(4)
-    seed       = 0
-    height     = 192
-    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86} => 147
-[00:55:48] [Server thread/INFO]: [bclib] Merged 19 additional Surface Rules for 
-BCLib - The End  BiomeSource (48305d39)
+ - minecells:insufferable_crypt: 
+     net.minecraft.class_2897@3452f437 
+     class_1992 (b380a2f)
+         biomes     = 1
+         namespaces = minecells(1)
+ - minecraft:the_nether: 
+     BCLib - Chunk Generator (4833e775) 
+     BCLib - Nether BiomeSource (568eb06a)
+         biomes     = 39
+         namespaces = betternether(22), cinderscapes(4), minecraft(5), incendium(8)
+         seed       = 0
+         height     = 192
+         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+ - nyctocosm:nyctocosm: 
+     net.minecraft.class_3754@1eb687e5 
+     class_4766 (22d90983)
+         biomes     = 6
+         namespaces = nyctocosm(6)
+ - spellbladenext:glassocean: 
+     net.minecraft.class_2897@61a36b 
+     class_1992 (57beeea6)
+         biomes     = 1
+         namespaces = spellbladenext(1)
+ - immersive_portals:alternate4: 
+     qouteall.imm_ptl.peripheral.alternate_dimension.ErrorTerrainGenerator@40bd1cfc 
+     ChaosBiomeSource (6a1e37f5)
+         biomes     = 62
+         namespaces = minecraft(62)
+ - deeperdarker:otherside: 
+     net.minecraft.class_3754@6d219c19 
+     class_4766 (60d60193)
+         biomes     = 3
+         namespaces = deeperdarker(3)
+ - immersive_portals:alternate3: 
+     qouteall.imm_ptl.peripheral.alternate_dimension.ErrorTerrainGenerator@5ee91714 
+     ChaosBiomeSource (761bafd7)
+         biomes     = 62
+         namespaces = minecraft(62)
+ - minecraft:overworld: 
+     net.minecraft.class_3754@6fc3cb42 
+     class_4766 (e635fc3)
+         biomes     = 151
+         namespaces = minecraft(53), terralith(94), promenade(4)
+[03:00:55] [Server thread/INFO]: [bclib] Merged 19 additional Surface Rules for 
+BCLib - The End  BiomeSource (7d2a3f35)
     biomes     = 26
-    namespaces = minecraft(5), promenade(2), betterend(19)
-    seed       = 246170960434215997
+    namespaces = betterend(19), minecraft(5), promenade(2)
+    seed       = 7320901029969447460
     height     = 128
     deciders   = 0
     config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
-[00:55:50] [Server thread/INFO]: Ignoring world 'immersive_portals:alternate4'; unknown dimension type: immersive_portals:surface_type
-[00:55:50] [Server thread/INFO]: Ignoring world 'immersive_portals:alternate3'; unknown dimension type: immersive_portals:surface_type
-[00:55:50] [Server thread/INFO]: Ignoring world 'immersive_portals:alternate1'; unknown dimension type: immersive_portals:surface_type_bright
-[00:55:52] [Server thread/INFO]: Ignoring world 'immersive_portals:alternate5'; unknown dimension type: immersive_portals:surface_type
-[00:55:52] [Server thread/INFO]: Ignoring world 'minecells:prison'; unknown dimension type: minecells:prison
-[00:55:52] [Server thread/INFO]: Ignoring world 'minecells:promenade'; unknown dimension type: minecells:promenade
-[00:55:52] [Server thread/INFO]: Ignoring world 'the_bumblezone:the_bumblezone'; unknown dimension type: the_bumblezone:the_bumblezone
-[00:55:52] [Server thread/INFO]: Ignoring world 'spellbladenext:glassocean'; unknown dimension type: spellbladenext:glassocean
-[00:55:52] [Server thread/INFO]: Ignoring world 'minecells:insufferable_crypt'; unknown dimension type: minecells:prison
-[00:55:52] [Server thread/INFO]: Ignoring world 'immersive_portals:alternate2'; unknown dimension type: immersive_portals:surface_type
-[00:55:53] [Server thread/INFO]: Ignoring world 'deeperdarker:otherside'; unknown dimension type: deeperdarker:otherside
-[00:55:53] [Server thread/INFO]: The server has no dimension stack preset.
-[00:55:53] [Server thread/INFO]: Bedrock Replacement minecraft:overworld null
-[00:55:53] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate4 null
-[00:55:53] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate3 null
-[00:55:53] [Server thread/INFO]: Bedrock Replacement minecraft:the_nether null
-[00:55:53] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate1 null
-[00:55:53] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate5 null
-[00:55:53] [Server thread/INFO]: Bedrock Replacement minecells:prison null
-[00:55:53] [Server thread/INFO]: Bedrock Replacement minecells:promenade null
-[00:55:53] [Server thread/INFO]: Bedrock Replacement the_bumblezone:the_bumblezone null
-[00:55:53] [Server thread/INFO]: Bedrock Replacement spellbladenext:glassocean null
-[00:55:53] [Server thread/INFO]: Bedrock Replacement minecells:insufferable_crypt null
-[00:55:53] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate2 null
-[00:55:53] [Server thread/INFO]: Bedrock Replacement deeperdarker:otherside null
-[00:55:53] [Server thread/INFO]: Bedrock Replacement minecraft:the_end null
-[00:55:53] [Server thread/INFO]: Successfully read IP's dimension id record
-[00:55:53] [Server thread/INFO]: Start Completing Dimension Id Record
-[00:55:53] [Server thread/INFO]: Before:
+[03:00:55] [Server thread/INFO]: [bclib] Merged 22 additional Surface Rules for 
+BCLib - Nether BiomeSource (568eb06a)
+    biomes     = 39
+    namespaces = betternether(22), cinderscapes(4), minecraft(5), incendium(8)
+    seed       = 0
+    height     = 192
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86} => 147
+[03:00:57] [Server thread/INFO]: Ignoring world 'minecells:prison'; unknown dimension type: minecells:prison
+[03:00:57] [Server thread/INFO]: Ignoring world 'immersive_portals:alternate1'; unknown dimension type: immersive_portals:surface_type_bright
+[03:00:57] [Server thread/INFO]: Ignoring world 'immersive_portals:alternate2'; unknown dimension type: immersive_portals:surface_type
+[03:00:58] [Server thread/INFO]: Ignoring world 'the_bumblezone:the_bumblezone'; unknown dimension type: the_bumblezone:the_bumblezone
+[03:00:58] [Server thread/INFO]: Ignoring world 'immersive_portals:alternate5'; unknown dimension type: immersive_portals:surface_type
+[03:00:58] [Server thread/INFO]: Ignoring world 'minecells:promenade'; unknown dimension type: minecells:promenade
+[03:00:58] [Server thread/INFO]: Ignoring world 'minecells:insufferable_crypt'; unknown dimension type: minecells:prison
+[03:00:58] [Server thread/INFO]: Ignoring world 'nyctocosm:nyctocosm'; unknown dimension type: nyctocosm:nyctocosm
+[03:00:58] [Server thread/INFO]: Ignoring world 'spellbladenext:glassocean'; unknown dimension type: spellbladenext:glassocean
+[03:00:58] [Server thread/INFO]: Ignoring world 'immersive_portals:alternate4'; unknown dimension type: immersive_portals:surface_type
+[03:00:58] [Server thread/INFO]: Ignoring world 'deeperdarker:otherside'; unknown dimension type: deeperdarker:otherside
+[03:00:58] [Server thread/INFO]: Ignoring world 'immersive_portals:alternate3'; unknown dimension type: immersive_portals:surface_type
+[03:00:58] [Server thread/INFO]: The server has no dimension stack preset.
+[03:00:58] [Server thread/INFO]: Bedrock Replacement minecraft:overworld null
+[03:00:58] [Server thread/INFO]: Bedrock Replacement minecells:prison null
+[03:00:58] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate1 null
+[03:00:58] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate2 null
+[03:00:58] [Server thread/INFO]: Bedrock Replacement the_bumblezone:the_bumblezone null
+[03:00:58] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate5 null
+[03:00:58] [Server thread/INFO]: Bedrock Replacement minecells:promenade null
+[03:00:58] [Server thread/INFO]: Bedrock Replacement minecraft:the_end null
+[03:00:58] [Server thread/INFO]: Bedrock Replacement minecells:insufferable_crypt null
+[03:00:58] [Server thread/INFO]: Bedrock Replacement minecraft:the_nether null
+[03:00:58] [Server thread/INFO]: Global portal storage initialized nyctocosm:nyctocosm
+[03:00:58] [Server thread/INFO]: Bedrock Replacement nyctocosm:nyctocosm null
+[03:00:58] [Server thread/INFO]: Bedrock Replacement spellbladenext:glassocean null
+[03:00:58] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate4 null
+[03:00:58] [Server thread/INFO]: Bedrock Replacement deeperdarker:otherside null
+[03:00:58] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate3 null
+[03:00:58] [Server thread/INFO]: Successfully read IP's dimension id record
+[03:00:58] [Server thread/INFO]: Start Completing Dimension Id Record
+[03:00:58] [Server thread/INFO]: Before:
 minecraft:the_nether -> -1
 minecraft:overworld -> 0
 minecraft:the_end -> 1
@@ -1018,7 +1058,7 @@ minecells:prison -> 9
 minecells:promenade -> 10
 spellbladenext:glassocean -> 11
 the_bumblezone:the_bumblezone -> 12
-[00:55:53] [Server thread/INFO]: Server Loaded Dimensions:
+[03:00:58] [Server thread/INFO]: Server Loaded Dimensions:
 deeperdarker:otherside
 immersive_portals:alternate1
 immersive_portals:alternate2
@@ -1031,10 +1071,11 @@ minecells:promenade
 minecraft:overworld
 minecraft:the_end
 minecraft:the_nether
+nyctocosm:nyctocosm
 spellbladenext:glassocean
 the_bumblezone:the_bumblezone
 
-[00:55:53] [Server thread/INFO]: After:
+[03:00:58] [Server thread/INFO]: After:
 minecraft:the_nether -> -1
 minecraft:overworld -> 0
 minecraft:the_end -> 1
@@ -1049,139 +1090,59 @@ minecells:prison -> 9
 minecells:promenade -> 10
 spellbladenext:glassocean -> 11
 the_bumblezone:the_bumblezone -> 12
-[00:55:53] [Server thread/INFO]: Dimension Id Info Saved to File
-[00:55:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:55:57] [Worker-Main-5/INFO]: menu.preparingSpawn
-[00:55:57] [Worker-Main-5/INFO]: menu.preparingSpawn
-[00:55:57] [Worker-Main-5/INFO]: menu.preparingSpawn
-[00:55:57] [Worker-Main-5/INFO]: menu.preparingSpawn
-[00:55:57] [Worker-Main-5/INFO]: menu.preparingSpawn
-[00:55:57] [Worker-Main-5/INFO]: menu.preparingSpawn
-[00:55:57] [Worker-Main-5/INFO]: menu.preparingSpawn
-[00:55:57] [Worker-Main-5/INFO]: menu.preparingSpawn
-[00:55:57] [Worker-Main-7/INFO]: menu.preparingSpawn
-[00:55:57] [Worker-Main-7/INFO]: menu.preparingSpawn
-[00:55:58] [Server thread/INFO]: Time elapsed: 4801 ms
-[00:55:58] [Server thread/INFO]: Loading custom portal generation
-[00:55:58] [Server thread/INFO]: Done (9.449s)! For help, type "help"
-[00:55:58] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 198029 bytes (in 20 string chunks with the size of 10000)
-[00:55:58] [Server thread/INFO]: Loaded config for: cupboard.json
-[00:55:58] [Server thread/INFO]: Loaded config for: dragonfight.json
-[00:55:58] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 134568 bytes (in 14 string chunks with the size of 10000)
-[00:55:58] [Server thread/INFO]: Server performance level: good
-[00:56:45] [User Authenticator #1/INFO]: UUID of player syuba2434 is a54f7ba3-96b4-432e-adca-08f05ee97ffc
-[00:56:45] [Server thread/INFO]: [Handshake] Sending channel query
-[00:56:45] [Netty Server IO #2/INFO]: [Handshake] Receiving client channels
-[00:56:45] [Netty Server IO #2/INFO]: [Handshake] Handshake completed successfully
-[00:56:45] [Server thread/INFO]: syuba2434[/192.168.10.108:55748] logged in with entity id 309 at (2.5, 82.0, -5.5)
-[00:56:45] [Server thread/INFO]: Sending server config values to client
-[00:56:45] [Netty Server IO #2/INFO]: Receiving client config
-[00:56:46] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[00:56:46] [Server thread/INFO]: multiplayer.player.joined
-[00:56:46] [Server thread/INFO]: PLAYER_JOIN
-[00:56:46] [Server thread/INFO]: add_player wand
-[00:56:46] [Server thread/INFO]: config sent
-[00:56:51] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[00:56:51] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[00:56:51] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[00:56:51] [Server thread/INFO]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
-[00:56:51] [Netty Server IO #2/INFO]: (This is for debugging only. You can ignore that. Logging limit 1/5) Exception from connection: 
-io.netty.channel.StacklessClosedChannelException: null
-	at io.netty.channel.AbstractChannel.close(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.82.Final.jar:?]
-[00:56:51] [Netty Server IO #2/INFO]: (This is for debugging only. You can ignore that. Logging limit 2/5) Exception from connection: 
-io.netty.channel.StacklessClosedChannelException: null
-	at io.netty.channel.AbstractChannel.close(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.82.Final.jar:?]
-[00:56:51] [Netty Server IO #2/INFO]: (This is for debugging only. You can ignore that. Logging limit 3/5) Exception from connection: 
-io.netty.channel.StacklessClosedChannelException: null
-	at io.netty.channel.AbstractChannel.close(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.82.Final.jar:?]
-[00:56:51] [Netty Server IO #2/INFO]: (This is for debugging only. You can ignore that. Logging limit 4/5) Exception from connection: 
-io.netty.channel.StacklessClosedChannelException: null
-	at io.netty.channel.AbstractChannel.close(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.82.Final.jar:?]
-[00:56:51] [Netty Server IO #2/INFO]: (This is for debugging only. You can ignore that. Logging limit 5/5) Exception from connection: 
-io.netty.channel.StacklessClosedChannelException: null
-	at io.netty.channel.AbstractChannel.close(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.82.Final.jar:?]
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[00:56:51] [Server thread/INFO]: [bclib] 	- Offering Folder C:\syuba\minecraft\server\1.20.1 fabric\bclib-sync (allowDelete=true)
-[00:56:51] [Server thread/INFO]: syuba2434 lost connection: multiplayer.disconnect.generic
-[00:56:51] [Server thread/INFO]: multiplayer.player.left
-[00:56:51] [Server thread/INFO]: remove player wand
-[00:56:59] [User Authenticator #2/INFO]: UUID of player syuba2434 is a54f7ba3-96b4-432e-adca-08f05ee97ffc
-[00:56:59] [Server thread/INFO]: [Handshake] Sending channel query
-[00:56:59] [Netty Server IO #3/INFO]: [Handshake] Receiving client channels
-[00:56:59] [Netty Server IO #3/INFO]: [Handshake] Handshake completed successfully
-[00:56:59] [Server thread/INFO]: syuba2434[/192.168.10.108:55760] logged in with entity id 400 at (2.5, 82.0, -5.5)
-[00:56:59] [Server thread/INFO]: Sending server config values to client
-[00:56:59] [Netty Server IO #3/INFO]: Receiving client config
-[00:56:59] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[00:56:59] [Server thread/INFO]: multiplayer.player.joined
-[00:56:59] [Server thread/INFO]: PLAYER_JOIN
-[00:56:59] [Server thread/INFO]: add_player wand
-[00:56:59] [Server thread/INFO]: config sent
-[00:57:02] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[00:57:02] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[00:57:02] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[00:57:02] [Server thread/INFO]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[00:57:02] [Server thread/INFO]: [bclib] 	- Offering Folder C:\syuba\minecraft\server\1.20.1 fabric\bclib-sync (allowDelete=true)
-[00:57:03] [Server thread/INFO]: syuba2434 lost connection: multiplayer.disconnect.generic
-[00:57:03] [Server thread/INFO]: multiplayer.player.left
-[00:57:03] [Server thread/INFO]: remove player wand
-[00:57:23] [Server thread/INFO]: commands.stop.stopping
-[00:57:23] [Server thread/INFO]: Invalidated damage temperature effect registry cache
-[00:57:23] [Server thread/INFO]: Resetting environment controller...
-[00:57:23] [Server thread/INFO]: Stopping server
-[00:57:23] [Server thread/INFO]: Saving players
-[00:57:23] [Server thread/INFO]: Saving worlds
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld world'/minecraft:overworld
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 world'/immersive_portals:alternate4
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 world'/immersive_portals:alternate3
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether world'/minecraft:the_nether
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 world'/immersive_portals:alternate1
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 world'/immersive_portals:alternate5
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecells:prison world'/minecells:prison
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecells:promenade world'/minecells:promenade
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld the_bumblezone:the_bumblezone world'/the_bumblezone:the_bumblezone
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld spellbladenext:glassocean world'/spellbladenext:glassocean
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecells:insufferable_crypt world'/minecells:insufferable_crypt
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 world'/immersive_portals:alternate2
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld deeperdarker:otherside world'/deeperdarker:otherside
-[00:57:23] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end world'/minecraft:the_end
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (prison): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (promenade): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_bumblezone): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (glassocean): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (insufferable_crypt): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:57:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+nyctocosm:nyctocosm -> 13
+[03:00:58] [Server thread/INFO]: Dimension Id Info Saved to File
+[03:00:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:01:01] [Worker-Main-9/INFO]: menu.preparingSpawn
+[03:01:01] [Worker-Main-9/INFO]: menu.preparingSpawn
+[03:01:01] [Worker-Main-2/INFO]: menu.preparingSpawn
+[03:01:01] [Worker-Main-10/INFO]: menu.preparingSpawn
+[03:01:01] [Worker-Main-10/INFO]: menu.preparingSpawn
+[03:01:01] [Worker-Main-18/INFO]: menu.preparingSpawn
+[03:01:01] [Worker-Main-18/INFO]: menu.preparingSpawn
+[03:01:02] [Worker-Main-16/INFO]: menu.preparingSpawn
+[03:01:02] [Server thread/INFO]: Time elapsed: 4120 ms
+[03:01:02] [Server thread/INFO]: Loading custom portal generation
+[03:01:02] [Server thread/INFO]: Done (7.006s)! For help, type "help"
+[03:01:02] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 198029 bytes (in 20 string chunks with the size of 10000)
+[03:01:02] [Server thread/INFO]: Loaded config for: cupboard.json
+[03:01:02] [Server thread/INFO]: Loaded config for: dragonfight.json
+[03:01:03] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 134568 bytes (in 14 string chunks with the size of 10000)
+[03:01:03] [Server thread/INFO]: Server performance level: good
+[03:01:08] [Server thread/INFO]: commands.stop.stopping
+[03:01:08] [Server thread/INFO]: Invalidated damage temperature effect registry cache
+[03:01:08] [Server thread/INFO]: Resetting environment controller...
+[03:01:08] [Server thread/INFO]: Stopping server
+[03:01:08] [Server thread/INFO]: Saving players
+[03:01:08] [Server thread/INFO]: Saving worlds
+[03:01:08] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld world'/minecraft:overworld
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecells:prison world'/minecells:prison
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 world'/immersive_portals:alternate1
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 world'/immersive_portals:alternate2
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld the_bumblezone:the_bumblezone world'/the_bumblezone:the_bumblezone
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 world'/immersive_portals:alternate5
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecells:promenade world'/minecells:promenade
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end world'/minecraft:the_end
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecells:insufferable_crypt world'/minecells:insufferable_crypt
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether world'/minecraft:the_nether
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld nyctocosm:nyctocosm world'/nyctocosm:nyctocosm
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld spellbladenext:glassocean world'/spellbladenext:glassocean
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 world'/immersive_portals:alternate4
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld deeperdarker:otherside world'/deeperdarker:otherside
+[03:01:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 world'/immersive_portals:alternate3
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (prison): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_bumblezone): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (promenade): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (insufferable_crypt): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (nyctocosm): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (glassocean): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
+[03:01:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
