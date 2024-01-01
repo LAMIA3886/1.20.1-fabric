@@ -1,6 +1,6 @@
 {
   "mainSettings": {
-    "enableGraves": false,
+    "enableGraves": true,
     "enableGraveLooting": false,
     "sendGraveCoordinates": false,
     "minimumOpLevelToLoot": 4,

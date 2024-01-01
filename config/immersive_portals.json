@@ -25,7 +25,7 @@
   "portalWandCursorAlignment": 2,
   "netherPortalMode": "normal",
   "endPortalMode": "normal",
-  "enableWarning": true,
+  "enableWarning": false,
   "lightVanillaNetherPortalWhenCrouching": true,
   "enableAlternateDimensions": true,
   "enableServerPerformanceAdjustment": true,

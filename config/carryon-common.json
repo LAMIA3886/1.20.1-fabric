@@ -44,6 +44,11 @@
     "//placementStateExceptions": "Usually all the block state information is retained when placing a block that was picked up. But some information is changed to a modified property, like rotation or orientation. In this list, add additional properties that should NOT be saved and instead be updated when placed. Format: modid:block[propertyname]. Note: You don't need to add an entry for every subtype of a same block. For example, we only add an entry for one type of slab, but the change is applied to all slabs.",
     "placementStateExceptions": [
       "minecraft:chest[type]",
+      "more_chests:copper_chest",
+      "more_chests:iron_chest",
+      "more_chests:gold_chest",
+      "more_chests:diamond_chest",
+      "more_chests:netherite_chest",
       "minecraft:stone_button[face]",
       "minecraft:vine[north,east,south,west,up]",
       "minecraft:creeper_head[rotation]",

@@ -15,7 +15,7 @@
 	allow_books = true
 	#Allow enchantments on an already enchanted item to be increased / removed.
 	#Allowed Values: UNENCHANTED, ALL, FULL_DURABILITY
-	allow_modifying_enchantments = "ALL"
+	allow_modifying_enchantments = "UNENCHANTED"
 
 	[advanced_infuser.repair]
 		#Cost multiplier in levels for each repair step, result will be rounded up.
@@ -56,7 +56,7 @@
 		allow_anvil_enchantments = true
 		#Allow untradeable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
 		#This option takes precedence over other options for treasure and curse enchantments.
-		allow_untradeable_enchantments = false
+		allow_untradeable_enchantments = true
 		#Allow treasure enchantments (e.g. mending) to be applied using the enchanting infuser.
 		allow_treasure_enchantments = false
 		#Allow undiscoverable enchantments (e.g. soul speed) to be applied using the enchanting infuser.

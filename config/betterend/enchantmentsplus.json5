@@ -1,0 +1,21 @@
+{
+	"enableBlazeWalker": true,
+	"enableCubical": false,
+	"enableDualLeap": true,
+	"enableEndSlayer": true,
+	"enableExcavator": true,
+	"enableFlashForge": true,
+	"enableFrostbite": true,
+	"enableHiker": true,
+	"enableLevitation": false,
+	"enableLifeSteal": true,
+	"enableLunarSight": false,
+	"enableMoonWalker": false,
+	"enableMysticMind": true,
+	"enablePayback": true,
+	"enableRaider": false,
+	"enableSniper": true,
+	"enableStormStrike": true,
+	"enableThunderlord": true,
+	"enableToxicStrike": true
+}
