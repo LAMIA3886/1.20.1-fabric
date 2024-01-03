@@ -14,7 +14,7 @@
 	"enableMysticMind": true,
 	"enablePayback": false,
 	"enableRaider": false,
-	"enableSniper": true,
+	"enableSniper": false,
 	"enableStormStrike": true,
 	"enableThunderlord": true,
 	"enableToxicStrike": true

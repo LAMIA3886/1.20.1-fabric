@@ -1,7 +1,7 @@
 {
   "longfooted": {
     "enabled": true,
-    "max_level": 5,
+    "max_level": 3,
     "min_cost": 12,
     "step_cost": 12,
     "bonus_per_level": 1.0
