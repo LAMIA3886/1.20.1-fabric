@@ -1,2 +1,2 @@
-java -Xmx8G -jar fabric-server-launch.jar
+java -Xmx10G -jar fabric-server-launch.jar
 pause
