@@ -8935,81 +8935,69 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:recipes/misc/conduit": {
     "criteria": {
-      "log_spam_fixer": "2024-01-08 05:11:42 +0900"
+      "has_nautilus_shell": "2024-01-08 01:12:46 +0900"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "immersive_armors:recipes/misc/divine": {
     "criteria": {
-      "log_spam_fixer": "2024-01-08 05:11:42 +0900"
+      "has_item": "2024-01-08 01:21:26 +0900"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_kill": {
+  "mcda:recipes/base_armors/phantom_armor_chestplate": {
     "criteria": {
-      "log_spam_fixer": "2024-01-08 05:11:42 +0900"
+      "has_phantom_skin": "2024-01-08 02:22:34 +0900"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "handcrafted:recipes/misc/phantom_trophy": {
     "criteria": {
-      "log_spam_fixer": "2024-01-08 05:11:42 +0900"
+      "has_phantom_trophy": "2024-01-08 02:22:34 +0900"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/holy_wrath": {
+  "mcda:recipes/base_armors/phantom_armor_leggings": {
     "criteria": {
-      "log_spam_fixer": "2024-01-08 05:11:42 +0900"
+      "has_phantom_skin": "2024-01-08 02:22:34 +0900"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_block": {
+  "mcda:recipes/base_armors/phantom_armor_helmet": {
     "criteria": {
-      "log_spam_fixer": "2024-01-08 05:11:42 +0900"
+      "has_phantom_skin": "2024-01-08 02:22:34 +0900"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "mcda:recipes/base_armors/phantom_armor_boots": {
     "criteria": {
-      "log_spam_fixer": "2024-01-08 05:11:42 +0900"
+      "has_phantom_skin": "2024-01-08 02:22:34 +0900"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "betterend:recipes/misc/enchanted_membrane": {
     "criteria": {
-      "log_spam_fixer": "2024-01-08 05:11:42 +0900"
+      "has_item.minecraft.phantom_membrane": "2024-01-08 02:22:34 +0900"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/firestorm": {
+  "illagerinvasion:recipes/misc/platinum_sheet": {
     "criteria": {
-      "log_spam_fixer": "2024-01-08 05:11:42 +0900"
+      "has_platinum_chunk": "2024-01-08 02:37:58 +0900"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/firestorm": {
+  "mcda:recipes/crafting_items/phantom_bones_to_bonemeal": {
     "criteria": {
-      "log_spam_fixer": "2024-01-08 05:11:42 +0900"
+      "has_phantom_bones": "2024-01-08 02:41:41 +0900"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/give_ghastling": {
+  "minecraft:story/shiny_gear": {
     "criteria": {
-      "log_spam_fixer": "2024-01-08 05:11:42 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-01-08 05:11:42 +0900"
-    },
-    "done": false
-  },
-  "mcda:recipes/unique_armors/verdant_robe_helmet": {
-    "criteria": {
-      "has_evocation_robe_helmet": "2024-01-08 02:56:27 +0900"
+      "diamond_boots": "2024-01-08 02:43:48 +0900"
     },
     "done": true
   },
@@ -9019,15 +9007,105 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
-    "criteria": {
-      "has_glass": "2024-01-08 03:32:22 +0900"
-    },
-    "done": true
-  },
   "voidtotem:recipes/combat/totem_of_void_undying": {
     "criteria": {
       "has_totem": "2024-01-08 02:56:25 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/royal_guard_armor_helmet": {
+    "criteria": {
+      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/royal_guard_armor_chestplate": {
+    "criteria": {
+      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/gilded_glory_leggings": {
+    "criteria": {
+      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/royal_guard_armor_boots": {
+    "criteria": {
+      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/gilded_glory_chestplate": {
+    "criteria": {
+      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/gilded_glory_boots": {
+    "criteria": {
+      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/royal_guard_armor_leggings": {
+    "criteria": {
+      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/gilded_glory_helmet": {
+    "criteria": {
+      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/verdant_robe_helmet": {
+    "criteria": {
+      "has_evocation_robe_helmet": "2024-01-08 02:56:27 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/ember_robe_helmet": {
+    "criteria": {
+      "has_evocation_robe_helmet": "2024-01-08 02:56:27 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2024-01-08 02:57:44 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/verdant_robe_chestplate": {
+    "criteria": {
+      "has_evocation_robe_chestplate": "2024-01-08 03:04:01 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/ember_robe_chestplate": {
+    "criteria": {
+      "has_evocation_robe_chestplate": "2024-01-08 03:04:01 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2024-01-08 03:10:39 +0900"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:pillager_treasure_bag": {
+    "criteria": {
+      "bag_opened": "2024-01-08 03:11:04 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-01-08 03:32:22 +0900"
     },
     "done": true
   },
@@ -9055,51 +9133,9 @@
     },
     "done": true
   },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_boots": "2024-01-08 02:43:48 +0900"
-    },
-    "done": true
-  },
-  "spellbladenext:spellblades/glassocean": {
-    "criteria": {
-      "arcane": "2024-01-08 05:04:46 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/conduit": {
-    "criteria": {
-      "has_nautilus_shell": "2024-01-08 01:12:46 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
-    "criteria": {
-      "has_polished_andesite": "2024-01-08 04:23:48 +0900"
-    },
-    "done": true
-  },
-  "rpg_classes:rune_crafter": {
-    "criteria": {
-      "craft": "2024-01-08 04:24:58 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2024-01-08 03:32:22 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/unique_armors/royal_guard_armor_helmet": {
-    "criteria": {
-      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
-    },
-    "done": true
-  },
-  "1_splatus:ultris/ender": {
-    "criteria": {
-      "c1": "2024-01-08 04:52:21 +0900"
     },
     "done": true
   },
@@ -9115,87 +9151,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_andesite_slab": {
-    "criteria": {
-      "has_polished_andesite": "2024-01-08 04:23:48 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_lamp": {
-    "criteria": {
-      "has_glowstone": "2024-01-08 03:34:53 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/unique_armors/ember_robe_helmet": {
-    "criteria": {
-      "has_evocation_robe_helmet": "2024-01-08 02:56:27 +0900"
-    },
-    "done": true
-  },
-  "frostiful:recipes/building_block/cut_blue_ice_stairs_from_blue_ice_stonecutting": {
-    "criteria": {
-      "has_blue_ice": "2024-01-08 05:01:10 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/base_armors/phantom_armor_chestplate": {
-    "criteria": {
-      "has_phantom_skin": "2024-01-08 02:22:34 +0900"
-    },
-    "done": true
-  },
-  "majruszsdifficulty:pillager_treasure_bag": {
-    "criteria": {
-      "bag_opened": "2024-01-08 03:11:04 +0900"
-    },
-    "done": true
-  },
-  "rpg_classes:classes": {
-    "criteria": {
-      "book": "2024-01-08 04:27:47 +0900"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/andesite_pedestal": {
-    "criteria": {
-      "has_polished_andesite": "2024-01-08 04:23:48 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/crafting_items/phantom_bones_to_bonemeal": {
-    "criteria": {
-      "has_phantom_bones": "2024-01-08 02:41:41 +0900"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/phantom_trophy": {
-    "criteria": {
-      "has_phantom_trophy": "2024-01-08 02:22:34 +0900"
-    },
-    "done": true
-  },
-  "rpg_classes:spellbinder": {
-    "criteria": {
-      "bind": "2024-01-08 04:27:51 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/unique_armors/verdant_robe_chestplate": {
-    "criteria": {
-      "has_evocation_robe_chestplate": "2024-01-08 03:04:01 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2024-01-08 03:32:22 +0900"
-    },
-    "done": true
-  },
-  "frostiful:recipes/building_block/cut_blue_ice_slab_from_blue_ice_stonecutting": {
-    "criteria": {
-      "has_blue_ice": "2024-01-08 05:01:10 +0900"
     },
     "done": true
   },
@@ -9211,69 +9169,9 @@
     },
     "done": true
   },
-  "frostiful:recipes/building_block/cut_blue_ice_wall_from_blue_ice_stonecutting": {
-    "criteria": {
-      "has_blue_ice": "2024-01-08 05:01:10 +0900"
-    },
-    "done": true
-  },
-  "immersive_armors:recipes/misc/divine": {
-    "criteria": {
-      "has_item": "2024-01-08 01:21:26 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/base_armors/phantom_armor_leggings": {
-    "criteria": {
-      "has_phantom_skin": "2024-01-08 02:22:34 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/unique_armors/royal_guard_armor_chestplate": {
-    "criteria": {
-      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/unique_armors/gilded_glory_leggings": {
-    "criteria": {
-      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
-    },
-    "done": true
-  },
-  "illagerinvasion:recipes/misc/platinum_sheet": {
-    "criteria": {
-      "has_platinum_chunk": "2024-01-08 02:37:58 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2024-01-08 03:32:22 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/unique_armors/royal_guard_armor_boots": {
-    "criteria": {
-      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/upgrade_cores/upgrade_core_magicked": {
-    "criteria": {
-      "has_core_specification_item": "2024-01-08 03:34:53 +0900"
-    },
-    "done": true
-  },
-  "minecraft:adventure/hero_of_the_village": {
-    "criteria": {
-      "hero_of_the_village": "2024-01-08 03:10:39 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/unique_armors/gilded_glory_chestplate": {
-    "criteria": {
-      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
     },
     "done": true
   },
@@ -9301,51 +9199,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/creeper_banner_pattern": {
-    "criteria": {
-      "has_creeper_head": "2024-01-08 03:40:01 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/base_armors/phantom_armor_helmet": {
-    "criteria": {
-      "has_phantom_skin": "2024-01-08 02:22:34 +0900"
-    },
-    "done": true
-  },
-  "rpg_classes:obtain_fire_rune": {
-    "criteria": {
-      "runes": "2024-01-08 04:24:59 +0900"
-    },
-    "done": true
-  },
-  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
-    "criteria": {
-      "lightning_rod_with_villager_no_fire": "2024-01-08 02:57:44 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2024-01-08 03:32:22 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/unique_armors/gilded_glory_boots": {
-    "criteria": {
-      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/unique_armors/ember_robe_chestplate": {
-    "criteria": {
-      "has_evocation_robe_chestplate": "2024-01-08 03:04:01 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
-    "criteria": {
-      "has_polished_andesite": "2024-01-08 04:23:48 +0900"
     },
     "done": true
   },
@@ -9355,15 +9211,21 @@
     },
     "done": true
   },
-  "1_splatus:ultris/completed": {
-    "criteria": {
-      "corrupted_enderman": "2024-01-08 04:53:05 +0900"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2024-01-08 03:32:22 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-01-08 03:34:53 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/upgrade_cores/upgrade_core_magicked": {
+    "criteria": {
+      "has_core_specification_item": "2024-01-08 03:34:53 +0900"
     },
     "done": true
   },
@@ -9373,15 +9235,63 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2024-01-08 03:40:01 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2024-01-08 04:23:48 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2024-01-08 04:23:48 +0900"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/andesite_pedestal": {
+    "criteria": {
+      "has_polished_andesite": "2024-01-08 04:23:48 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2024-01-08 04:23:48 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2024-01-08 04:23:48 +0900"
     },
     "done": true
   },
-  "mcda:recipes/base_armors/phantom_armor_boots": {
+  "rpg_classes:rune_crafter": {
     "criteria": {
-      "has_phantom_skin": "2024-01-08 02:22:34 +0900"
+      "craft": "2024-01-08 04:24:58 +0900"
+    },
+    "done": true
+  },
+  "rpg_classes:obtain_fire_rune": {
+    "criteria": {
+      "runes": "2024-01-08 04:24:59 +0900"
+    },
+    "done": true
+  },
+  "rpg_classes:classes": {
+    "criteria": {
+      "book": "2024-01-08 04:27:47 +0900"
+    },
+    "done": true
+  },
+  "rpg_classes:spellbinder": {
+    "criteria": {
+      "bind": "2024-01-08 04:27:51 +0900"
     },
     "done": true
   },
@@ -9391,11 +9301,17 @@
     },
     "done": true
   },
-  "mcda:recipes/unique_armors/royal_guard_armor_leggings": {
+  "1_splatus:ultris/ender": {
     "criteria": {
-      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
+      "c1": "2024-01-08 04:52:21 +0900"
     },
     "done": true
+  },
+  "1_splatus:ultris/completed": {
+    "criteria": {
+      "corrupted_enderman": "2024-01-08 04:53:05 +0900"
+    },
+    "done": false
   },
   "1_splatus:ultris/enderkill": {
     "criteria": {
@@ -9403,9 +9319,21 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/enchanted_membrane": {
+  "frostiful:recipes/building_block/cut_blue_ice_stairs_from_blue_ice_stonecutting": {
     "criteria": {
-      "has_item.minecraft.phantom_membrane": "2024-01-08 02:22:34 +0900"
+      "has_blue_ice": "2024-01-08 05:01:10 +0900"
+    },
+    "done": true
+  },
+  "frostiful:recipes/building_block/cut_blue_ice_slab_from_blue_ice_stonecutting": {
+    "criteria": {
+      "has_blue_ice": "2024-01-08 05:01:10 +0900"
+    },
+    "done": true
+  },
+  "frostiful:recipes/building_block/cut_blue_ice_wall_from_blue_ice_stonecutting": {
+    "criteria": {
+      "has_blue_ice": "2024-01-08 05:01:10 +0900"
     },
     "done": true
   },
@@ -9415,9 +9343,99 @@
     },
     "done": true
   },
-  "mcda:recipes/unique_armors/gilded_glory_helmet": {
+  "spellbladenext:spellblades/glassocean": {
     "criteria": {
-      "has_upgrade_item": "2024-01-08 02:56:25 +0900"
+      "arcane": "2024-01-08 05:04:46 +0900"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-01-08 19:32:22 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-01-08 19:32:22 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-01-08 19:32:22 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-01-08 19:32:22 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-01-08 19:32:22 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-01-08 19:32:22 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-01-08 19:32:22 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-01-08 19:32:22 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-01-08 19:32:22 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-01-08 19:32:22 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-01-08 19:32:22 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-01-08 19:32:22 +0900"
+    },
+    "done": false
+  },
+  "1_splatus:ultris/technical/used_shield": {
+    "criteria": {
+      "requirement": "2024-01-08 18:36:33 +0900"
+    },
+    "done": true
+  },
+  "rpg_classes:enchant_spell_infinity": {
+    "criteria": {
+      "enchant": "2024-01-08 18:33:02 +0900"
+    },
+    "done": true
+  },
+  "rpg_classes:paladin_mastery": {
+    "criteria": {
+      "cast": "2024-01-08 18:51:39 +0900"
     },
     "done": true
   },
