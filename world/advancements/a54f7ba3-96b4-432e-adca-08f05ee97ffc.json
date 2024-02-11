@@ -2931,6 +2931,7 @@
       "minecraft:beach": "2024-01-04 21:33:41 +0900",
       "minecraft:sparse_jungle": "2024-01-06 22:22:46 +0900",
       "minecraft:river": "2024-01-02 02:11:30 +0900",
+      "minecraft:dripstone_caves": "2024-02-11 17:23:27 +0900",
       "minecraft:swamp": "2024-01-05 21:45:06 +0900",
       "minecraft:old_growth_spruce_taiga": "2024-01-05 21:45:20 +0900",
       "minecraft:savanna": "2024-01-14 16:37:05 +0900",
@@ -9716,99 +9717,9 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-10 16:20:49 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-10 16:20:49 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-10 16:20:49 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-10 16:20:49 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-10 16:20:49 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-10 16:20:49 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-10 16:20:49 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-10 16:20:49 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-10 16:20:49 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-10 16:20:49 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-10 16:20:49 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-10 16:20:49 +0900"
-    },
-    "done": false
-  },
-  "mcda:recipes/base_armors/teleportation_robe_boots": {
-    "criteria": {
-      "has_ender_eye": "2024-02-10 15:39:20 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
       "has_blaze_powder": "2024-02-10 15:36:15 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_crystal": {
-    "criteria": {
-      "has_ender_eye": "2024-02-10 15:39:20 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/upgrade_cores/upgrade_core_void": {
-    "criteria": {
-      "has_core_specification_item": "2024-02-10 15:39:20 +0900"
     },
     "done": true
   },
@@ -9824,21 +9735,33 @@
     },
     "done": true
   },
-  "mcda:recipes/base_armors/teleportation_robe_leggings": {
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2024-02-10 15:36:15 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/teleportation_robe_boots": {
     "criteria": {
       "has_ender_eye": "2024-02-10 15:39:20 +0900"
     },
     "done": true
   },
-  "1_splatus:ultris/sanctum/eye_of_ender": {
+  "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
-      "c1": "2024-02-10 15:39:21 +0900"
+      "has_ender_eye": "2024-02-10 15:39:20 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/misc/ender_eye": {
+  "mcda:recipes/upgrade_cores/upgrade_core_void": {
     "criteria": {
-      "has_blaze_powder": "2024-02-10 15:36:15 +0900"
+      "has_core_specification_item": "2024-02-10 15:39:20 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/teleportation_robe_leggings": {
+    "criteria": {
+      "has_ender_eye": "2024-02-10 15:39:20 +0900"
     },
     "done": true
   },
@@ -9854,17 +9777,269 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/teleportation_robe_helmet": {
+    "criteria": {
+      "has_ender_eye": "2024-02-10 15:39:20 +0900"
+    },
+    "done": true
+  },
+  "1_splatus:ultris/sanctum/eye_of_ender": {
+    "criteria": {
+      "c1": "2024-02-10 15:39:21 +0900"
+    },
+    "done": true
+  },
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2024-02-10 16:12:59 +0900"
     },
     "done": true
   },
-  "mcda:recipes/base_armors/teleportation_robe_helmet": {
+  "1_splatus:ultris/technical/used_shield": {
     "criteria": {
-      "has_ender_eye": "2024-02-10 15:39:20 +0900"
+      "requirement": "2024-02-11 16:18:25 +0900"
     },
     "done": true
+  },
+  "candlelight:recipes/plate": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/hydralux_petal_block_white": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_white": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_plate": {
+    "criteria": {
+      "has_white_plate": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bulb_lantern_white": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/quartz_glass_pane_white": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_cup": {
+    "criteria": {
+      "has_white_cup": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/quartz_glass_framed_white": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/quartz_glass_framed_pane_white": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_crockery_combo": {
+    "criteria": {
+      "has_white_crockery_combo": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/quartz_glass_white": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_bowl": {
+    "criteria": {
+      "has_white_bowl": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern_white": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-02-11 16:19:10 +0900"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/kitchen_hood": {
+    "criteria": {
+      "has_kitchen_hood": "2024-02-11 17:01:33 +0900"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/kitchen_hood_pipe": {
+    "criteria": {
+      "has_kitchen_hood_pipe": "2024-02-11 17:01:33 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-02-11 17:25:29 +0900"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-02-11 18:24:37 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-02-11 18:24:37 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-02-11 18:24:37 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-02-11 18:24:37 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-02-11 18:24:37 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-02-11 18:24:37 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-02-11 18:24:37 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-02-11 18:24:37 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-02-11 18:24:37 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-02-11 18:24:37 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-02-11 18:24:37 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-02-11 18:24:37 +0900"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }

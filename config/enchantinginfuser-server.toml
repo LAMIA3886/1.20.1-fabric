@@ -55,7 +55,7 @@
 		#This option takes precedence over other options for treasure and curse enchantments.
 		allow_untradeable_enchantments = true
 		#Allow treasure enchantments (e.g. mending) to be applied using the enchanting infuser.
-		allow_treasure_enchantments = true
+		allow_treasure_enchantments = false
 		#Allow undiscoverable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
 		#This option takes precedence over other options for treasure, curse and tradeable enchantments.
 		allow_undiscoverable_enchantments = false
