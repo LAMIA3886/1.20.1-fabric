@@ -9801,7 +9801,7 @@
   },
   "1_splatus:ultris/technical/used_shield": {
     "criteria": {
-      "requirement": "2024-02-11 16:18:25 +0900"
+      "requirement": "2024-03-04 22:27:01 +0900"
     },
     "done": true
   },
@@ -9973,111 +9973,45 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:recipes/redstone/slime_block": {
     "criteria": {
-      "log_spam_fixer": "2024-02-29 19:05:52 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-29 19:05:52 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-29 19:05:52 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-29 19:05:52 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-29 19:05:52 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-29 19:05:52 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-29 19:05:52 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-29 19:05:52 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-29 19:05:52 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-29 19:05:52 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-29 19:05:52 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-02-29 19:05:52 +0900"
-    },
-    "done": false
-  },
-  "promenade:recipes/stonecutting/blunite/stairs": {
-    "criteria": {
-      "has_blunite": "2024-02-29 18:12:19 +0900"
+      "has_slime_ball": "2024-02-29 16:09:26 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/misc/copper_ingot_from_blasting_deepslate_copper_ore": {
+  "immersive_armors:recipes/misc/slime": {
     "criteria": {
-      "has_deepslate_copper_ore": "2024-02-29 18:23:32 +0900"
+      "has_item": "2024-02-29 16:09:26 +0900"
     },
     "done": true
   },
-  "promenade:recipes/stonecutting/blunite/wall": {
+  "minecraft:recipes/tools/lead": {
     "criteria": {
-      "has_blunite": "2024-02-29 18:12:19 +0900"
+      "has_slime_ball": "2024-02-29 16:09:26 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-02-29 16:09:26 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2024-02-29 17:10:02 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2024-02-29 17:10:02 +0900"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/smooth_red_sandstone": {
     "criteria": {
       "has_red_sandstone": "2024-02-29 17:13:44 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_red_sandstone": {
-    "criteria": {
-      "has_red_sandstone": "2024-02-29 17:13:45 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_red_sandstone_stairs": {
-    "criteria": {
-      "has_smooth_red_sandstone": "2024-02-29 17:13:50 +0900"
     },
     "done": true
   },
@@ -10093,51 +10027,9 @@
     },
     "done": true
   },
-  "promenade:recipes/crafting/blunite/polished_block": {
-    "criteria": {
-      "has_blunite": "2024-02-29 18:12:19 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
-    "criteria": {
-      "has_cut_sandstone": "2024-02-29 17:10:02 +0900"
-    },
-    "done": true
-  },
-  "promenade:recipes/stonecutting/blunite/polished_slab": {
-    "criteria": {
-      "has_blunite": "2024-02-29 18:12:19 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
-    "criteria": {
-      "has_iron_ore": "2024-02-29 18:06:06 +0900"
-    },
-    "done": true
-  },
-  "promenade:recipes/crafting/blunite/stairs": {
-    "criteria": {
-      "has_blunite": "2024-02-29 18:12:19 +0900"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/red_sandstone_corner_trim": {
     "criteria": {
       "has_red_sandstone_corner_trim": "2024-02-29 17:13:44 +0900"
-    },
-    "done": true
-  },
-  "promenade:recipes/stonecutting/blunite/polished_block": {
-    "criteria": {
-      "has_blunite": "2024-02-29 18:12:19 +0900"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/deepslate_corner_trim": {
-    "criteria": {
-      "has_deepslate_corner_trim": "2024-02-29 18:16:00 +0900"
     },
     "done": true
   },
@@ -10153,21 +10045,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/slime_block": {
+  "minecraft:recipes/building_blocks/red_sandstone_slab": {
     "criteria": {
-      "has_slime_ball": "2024-02-29 16:09:26 +0900"
+      "has_red_sandstone": "2024-02-29 17:13:44 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/misc/copper_ingot_from_smelting_deepslate_copper_ore": {
+  "minecraft:recipes/building_blocks/red_sandstone_stairs": {
     "criteria": {
-      "has_deepslate_copper_ore": "2024-02-29 18:23:32 +0900"
+      "has_red_sandstone": "2024-02-29 17:13:44 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+  "minecraft:recipes/building_blocks/red_sandstone_slab_from_red_sandstone_stonecutting": {
     "criteria": {
-      "has_copper_ore": "2024-02-29 18:11:56 +0900"
+      "has_red_sandstone": "2024-02-29 17:13:44 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-02-29 17:13:44 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2024-02-29 17:13:45 +0900"
     },
     "done": true
   },
@@ -10177,51 +10081,27 @@
     },
     "done": true
   },
-  "candlelight:recipes/deepslate_kitchen_sink": {
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone_from_red_sandstone_stonecutting": {
     "criteria": {
-      "has_deepslate": "2024-02-29 18:16:00 +0900"
+      "has_red_sandstone": "2024-02-29 17:13:45 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2024-02-29 17:13:45 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_red_sandstone": "2024-02-29 17:13:50 +0900"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/smooth_red_sandstone_stairs_from_smooth_red_sandstone_stonecutting": {
     "criteria": {
       "has_smooth_red_sandstone": "2024-02-29 17:13:50 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
-    "criteria": {
-      "has_copper_ore": "2024-02-29 18:11:56 +0900"
-    },
-    "done": true
-  },
-  "immersive_armors:recipes/misc/slime": {
-    "criteria": {
-      "has_item": "2024-02-29 16:09:26 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
-    "criteria": {
-      "has_iron_ore": "2024-02-29 18:06:06 +0900"
-    },
-    "done": true
-  },
-  "promenade:recipes/crafting/blunite/slab": {
-    "criteria": {
-      "has_blunite": "2024-02-29 18:12:19 +0900"
-    },
-    "done": true
-  },
-  "candlelight:recipes/deepslate_counter": {
-    "criteria": {
-      "has_deepslate": "2024-02-29 18:16:00 +0900"
-    },
-    "done": true
-  },
-  "mcda:recipes/unique_armors/titans_shroud_helmet": {
-    "criteria": {
-      "has_dark_armor_helmet": "2024-02-29 17:14:03 +0900"
     },
     "done": true
   },
@@ -10237,27 +10117,81 @@
     },
     "done": true
   },
-  "promenade:recipes/stonecutting/blunite/polished_stairs": {
+  "mcda:recipes/unique_armors/titans_shroud_helmet": {
+    "criteria": {
+      "has_dark_armor_helmet": "2024-02-29 17:14:03 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-02-29 18:06:06 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-02-29 18:06:06 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2024-02-29 18:11:56 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2024-02-29 18:11:56 +0900"
+    },
+    "done": true
+  },
+  "promenade:recipes/stonecutting/blunite/stairs": {
     "criteria": {
       "has_blunite": "2024-02-29 18:12:19 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+  "promenade:recipes/stonecutting/blunite/wall": {
     "criteria": {
-      "has_cut_sandstone": "2024-02-29 17:10:02 +0900"
+      "has_blunite": "2024-02-29 18:12:19 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_sandstone_slab": {
+  "promenade:recipes/crafting/blunite/polished_block": {
     "criteria": {
-      "has_red_sandstone": "2024-02-29 17:13:44 +0900"
+      "has_blunite": "2024-02-29 18:12:19 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/tools/lead": {
+  "promenade:recipes/stonecutting/blunite/polished_slab": {
     "criteria": {
-      "has_slime_ball": "2024-02-29 16:09:26 +0900"
+      "has_blunite": "2024-02-29 18:12:19 +0900"
+    },
+    "done": true
+  },
+  "promenade:recipes/crafting/blunite/stairs": {
+    "criteria": {
+      "has_blunite": "2024-02-29 18:12:19 +0900"
+    },
+    "done": true
+  },
+  "promenade:recipes/stonecutting/blunite/polished_block": {
+    "criteria": {
+      "has_blunite": "2024-02-29 18:12:19 +0900"
+    },
+    "done": true
+  },
+  "promenade:recipes/crafting/blunite/slab": {
+    "criteria": {
+      "has_blunite": "2024-02-29 18:12:19 +0900"
+    },
+    "done": true
+  },
+  "promenade:recipes/stonecutting/blunite/polished_stairs": {
+    "criteria": {
+      "has_blunite": "2024-02-29 18:12:19 +0900"
     },
     "done": true
   },
@@ -10267,21 +10201,33 @@
     },
     "done": true
   },
+  "promenade:recipes/crafting/blunite/wall": {
+    "criteria": {
+      "has_blunite": "2024-02-29 18:12:19 +0900"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/deepslate_corner_trim": {
+    "criteria": {
+      "has_deepslate_corner_trim": "2024-02-29 18:16:00 +0900"
+    },
+    "done": true
+  },
+  "candlelight:recipes/deepslate_kitchen_sink": {
+    "criteria": {
+      "has_deepslate": "2024-02-29 18:16:00 +0900"
+    },
+    "done": true
+  },
+  "candlelight:recipes/deepslate_counter": {
+    "criteria": {
+      "has_deepslate": "2024-02-29 18:16:00 +0900"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/deepslate_pillar_trim": {
     "criteria": {
       "has_deepslate_pillar_trim": "2024-02-29 18:16:00 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_sandstone_stairs": {
-    "criteria": {
-      "has_red_sandstone": "2024-02-29 17:13:44 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_red_sandstone_from_red_sandstone_stonecutting": {
-    "criteria": {
-      "has_red_sandstone": "2024-02-29 17:13:45 +0900"
     },
     "done": true
   },
@@ -10291,33 +10237,465 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/sticky_piston": {
+  "minecraft:recipes/misc/copper_ingot_from_blasting_deepslate_copper_ore": {
     "criteria": {
-      "has_slime_ball": "2024-02-29 16:09:26 +0900"
+      "has_deepslate_copper_ore": "2024-02-29 18:23:32 +0900"
     },
     "done": true
   },
-  "promenade:recipes/crafting/blunite/wall": {
+  "minecraft:recipes/misc/copper_ingot_from_smelting_deepslate_copper_ore": {
     "criteria": {
-      "has_blunite": "2024-02-29 18:12:19 +0900"
+      "has_deepslate_copper_ore": "2024-02-29 18:23:32 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_sandstone_slab_from_red_sandstone_stonecutting": {
+  "frostiful:recipes/building_block/packed_snow_block": {
     "criteria": {
-      "has_red_sandstone": "2024-02-29 17:13:44 +0900"
+      "has_snow_block": "2024-03-04 20:17:24 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_red_sandstone_from_red_sandstone_stonecutting": {
+  "mcda:recipes/unique_armors/frost_armor_helmet": {
     "criteria": {
-      "has_red_sandstone": "2024-02-29 17:13:45 +0900"
+      "has_snow_armor_helmet": "2024-03-04 20:18:04 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_sandstone_stairs_from_red_sandstone_stonecutting": {
+  "mcda:recipes/unique_armors/frost_armor_leggings": {
     "criteria": {
-      "has_red_sandstone": "2024-02-29 17:13:44 +0900"
+      "has_snow_armor_leggings": "2024-03-04 20:18:06 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-03-04 20:24:49 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-03-04 20:24:49 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2024-03-04 20:25:07 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2024-03-04 20:25:07 +0900"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/dripstone_pillar_trim": {
+    "criteria": {
+      "has_dripstone_pillar_trim": "2024-03-04 20:26:29 +0900"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/dripstone_corner_trim": {
+    "criteria": {
+      "has_dripstone_corner_trim": "2024-03-04 20:26:29 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2024-03-04 20:28:17 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2024-03-04 20:28:17 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2024-03-04 20:28:26 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2024-03-04 20:28:26 +0900"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/crypt": {
+    "criteria": {
+      "crypt": "2024-03-04 20:31:03 +0900"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/dark_iron": {
+    "criteria": {
+      "dark_iron": "2024-03-04 20:32:05 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2024-03-04 20:32:14 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2024-03-04 20:32:14 +0900"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/kill_wraith": {
+    "criteria": {
+      "wraith": "2024-03-04 20:32:26 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2024-03-04 20:33:55 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2024-03-04 20:33:55 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2024-03-04 20:33:55 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper": {
+    "criteria": {
+      "has_oxidized_copper": "2024-03-04 20:33:55 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper": "2024-03-04 20:33:55 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2024-03-04 20:37:31 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2024-03-04 20:37:31 +0900"
+    },
+    "done": true
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2024-03-04 20:45:42 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-03-04 20:51:58 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-03-04 20:51:58 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-03-04 20:51:58 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-03-04 20:51:58 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-03-04 20:51:58 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-03-04 20:51:58 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2024-03-04 20:51:58 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/boss_compass": {
+    "criteria": {
+      "has_item": "2024-03-04 20:59:36 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/altar_block": {
+    "criteria": {
+      "has_item": "2024-03-04 20:59:36 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/moonstone_hoe": {
+    "criteria": {
+      "has_item": "2024-03-04 20:59:36 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/bluemoon_shortsword": {
+    "criteria": {
+      "has_item": "2024-03-04 20:59:36 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/moonstone_axe": {
+    "criteria": {
+      "has_item": "2024-03-04 20:59:36 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/bluemoon_greatsword": {
+    "criteria": {
+      "has_item": "2024-03-04 20:59:36 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/moonstone_shovel": {
+    "criteria": {
+      "has_item": "2024-03-04 20:59:36 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:moonstone": {
+    "criteria": {
+      "item": "2024-03-04 20:59:36 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/moonstone_block": {
+    "criteria": {
+      "has_item": "2024-03-04 20:59:36 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/blackstone_pedestal": {
+    "criteria": {
+      "has_item": "2024-03-04 20:59:36 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/moonstone": {
+    "criteria": {
+      "has_item": "2024-03-04 20:59:36 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/moonstone_pickaxe": {
+    "criteria": {
+      "has_item": "2024-03-04 20:59:36 +0900"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
+    },
+    "done": false
+  },
+  "soulsweapons:recipes/silver_bullet": {
+    "criteria": {
+      "has_item": "2024-03-04 21:42:00 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:silver_bullet_2_recipe": {
+    "criteria": {
+      "has_item": "2024-03-04 21:42:00 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/gatling_gun": {
+    "criteria": {
+      "has_item": "2024-03-04 21:42:00 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/infused_blackstone": {
+    "criteria": {
+      "has_item": "2024-03-04 21:42:00 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/soul_lamp": {
+    "criteria": {
+      "has_item": "2024-03-04 21:42:00 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/blunderbuss": {
+    "criteria": {
+      "has_item": "2024-03-04 21:42:00 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/lost_soul_to_lantern": {
+    "criteria": {
+      "has_item": "2024-03-04 21:42:00 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/hunter_cannon": {
+    "criteria": {
+      "has_item": "2024-03-04 21:42:00 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/hunter_pistol": {
+    "criteria": {
+      "has_item": "2024-03-04 21:42:00 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/cracked_infused_blackstone": {
+    "criteria": {
+      "has_item": "2024-03-04 21:42:00 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:silver_bullet_1_recipe": {
+    "criteria": {
+      "has_item": "2024-03-04 21:42:00 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/soulfire_stain": {
+    "criteria": {
+      "has_item": "2024-03-04 21:42:00 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/soul_ingot": {
+    "criteria": {
+      "has_item": "2024-03-04 21:42:00 +0900"
+    },
+    "done": true
+  },
+  "soulsweapons:gatling_gun": {
+    "criteria": {
+      "weapon": "2024-03-04 21:42:02 +0900"
+    },
+    "done": true
+  },
+  "simplyswords:icewhisper": {
+    "criteria": {
+      "requirement": "2024-03-04 22:54:50 +0900"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/find_skeleton": {
+    "criteria": {
+      "skeleton": "2024-03-04 21:52:13 +0900"
+    },
+    "done": true
+  },
+  "promenade:recipes/crafting/vanilla_piles/wither_rose": {
+    "criteria": {
+      "has_flower": "2024-03-04 21:52:38 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2024-03-04 21:52:38 +0900"
     },
     "done": true
   },
