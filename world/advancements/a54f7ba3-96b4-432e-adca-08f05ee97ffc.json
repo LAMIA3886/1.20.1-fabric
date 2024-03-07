@@ -2937,6 +2937,7 @@
       "minecraft:swamp": "2024-01-05 21:45:06 +0900",
       "minecraft:forest": "2024-02-29 16:43:42 +0900",
       "minecraft:old_growth_spruce_taiga": "2024-01-05 21:45:20 +0900",
+      "minecraft:old_growth_birch_forest": "2024-03-07 16:48:19 +0900",
       "minecraft:savanna": "2024-01-14 16:37:05 +0900",
       "minecraft:plains": "2024-01-14 17:42:11 +0900"
     },
@@ -9799,12 +9800,6 @@
     },
     "done": true
   },
-  "1_splatus:ultris/technical/used_shield": {
-    "criteria": {
-      "requirement": "2024-03-04 22:27:01 +0900"
-    },
-    "done": true
-  },
   "candlelight:recipes/plate": {
     "criteria": {
       "has_white_dye": "2024-02-11 16:19:10 +0900"
@@ -10519,78 +10514,6 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-03-04 22:57:27 +0900"
-    },
-    "done": false
-  },
   "soulsweapons:recipes/silver_bullet": {
     "criteria": {
       "has_item": "2024-03-04 21:42:00 +0900"
@@ -10675,12 +10598,6 @@
     },
     "done": true
   },
-  "simplyswords:icewhisper": {
-    "criteria": {
-      "requirement": "2024-03-04 22:54:50 +0900"
-    },
-    "done": true
-  },
   "graveyard:graveyard/find_skeleton": {
     "criteria": {
       "skeleton": "2024-03-04 21:52:13 +0900"
@@ -10696,6 +10613,180 @@
   "minecraft:recipes/misc/black_dye_from_wither_rose": {
     "criteria": {
       "has_wither_rose": "2024-03-04 21:52:38 +0900"
+    },
+    "done": true
+  },
+  "1_splatus:ultris/technical/used_shield": {
+    "criteria": {
+      "requirement": "2024-03-04 22:27:01 +0900"
+    },
+    "done": true
+  },
+  "simplyswords:icewhisper": {
+    "criteria": {
+      "requirement": "2024-03-04 22:54:50 +0900"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-07 18:02:59 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-07 18:02:59 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-07 18:02:59 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-07 18:02:59 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-07 18:02:59 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-07 18:02:59 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-07 18:02:59 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-07 18:02:59 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-07 18:02:59 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-07 18:02:59 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-07 18:02:59 +0900"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-03-07 18:02:59 +0900"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_the_recipe": "2024-03-07 16:56:45 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/beenest_armor_helmet": {
+    "criteria": {
+      "has_bee_nest": "2024-03-07 16:49:18 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/beenest_armor_boots": {
+    "criteria": {
+      "has_bee_nest": "2024-03-07 16:49:18 +0900"
+    },
+    "done": true
+  },
+  "promenade:recipes/crafting/vanilla_piles/red_tulip": {
+    "criteria": {
+      "has_flower": "2024-03-07 17:47:25 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2024-03-07 17:47:25 +0900"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/wood_cup": {
+    "criteria": {
+      "has_wood_cup": "2024-03-07 16:57:05 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/upgrade_cores/upgrade_core_hive": {
+    "criteria": {
+      "has_core_specification_item": "2024-03-07 16:49:18 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-03-07 16:57:05 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/frost_armor_chestplate": {
+    "criteria": {
+      "has_snow_armor_chestplate": "2024-03-07 17:06:52 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/beenest_armor_chestplate": {
+    "criteria": {
+      "has_bee_nest": "2024-03-07 16:49:18 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/unique_armors/frost_armor_boots": {
+    "criteria": {
+      "has_snow_armor_boots": "2024-03-07 17:06:50 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2024-03-07 17:25:43 +0900"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/wood_bowl": {
+    "criteria": {
+      "has_wood_bowl": "2024-03-07 16:57:05 +0900"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/wood_plate": {
+    "criteria": {
+      "has_wood_plate": "2024-03-07 16:57:05 +0900"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/beenest_armor_leggings": {
+    "criteria": {
+      "has_bee_nest": "2024-03-07 16:49:18 +0900"
     },
     "done": true
   },
