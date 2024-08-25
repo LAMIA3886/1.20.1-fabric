@@ -1,4 +1,4 @@
-[01:26:16] [ERROR] [FabricLoader/]: Uncaught exception in thread "main"
+[17:45:48] [ERROR] [FabricLoader/]: Uncaught exception in thread "main"
 java.lang.RuntimeException: An exception occurred when launching the server!
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:71)
 Caused by: java.lang.RuntimeException: Error invoking MC server bundler: java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
